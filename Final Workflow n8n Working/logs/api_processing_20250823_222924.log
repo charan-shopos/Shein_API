@@ -1,0 +1,93 @@
+2025-08-23 22:29:24,500 - INFO - API startup successful - all required files found
+2025-08-23 22:29:35,354 - INFO - === NEW REQUEST RECEIVED ===
+2025-08-23 22:29:35,354 - INFO - comfyui_url: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:29:35,354 - INFO - images_zip filename: input_images copy.zip
+2025-08-23 22:29:35,354 - INFO - masks_zip filename: masks copy.zip
+2025-08-23 22:29:35,354 - INFO - prompts_json filename: Prompts copy.json
+2025-08-23 22:29:35,354 - INFO - Creating temporary directories...
+2025-08-23 22:29:35,354 - INFO - Temp dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s
+2025-08-23 22:29:35,354 - INFO - Input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/input_images
+2025-08-23 22:29:35,354 - INFO - Masks dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/masks
+2025-08-23 22:29:35,354 - INFO - Output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/output
+2025-08-23 22:29:35,354 - INFO - Temporary directories created successfully
+2025-08-23 22:29:35,355 - INFO - Starting ZIP extraction...
+2025-08-23 22:29:35,355 - INFO - Attempting to extract images ZIP: input_images copy.zip
+2025-08-23 22:29:35,355 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:29:35,355 - INFO - Filename: input_images copy.zip
+2025-08-23 22:29:35,355 - INFO - Content type: application/zip
+2025-08-23 22:29:35,355 - INFO - File size: 9540777
+2025-08-23 22:29:35,355 - INFO - Reading file content...
+2025-08-23 22:29:35,357 - INFO - Content read successfully. Size: 9540777 bytes
+2025-08-23 22:29:35,357 - INFO - Creating BytesIO object...
+2025-08-23 22:29:35,357 - INFO - BytesIO object created successfully
+2025-08-23 22:29:35,357 - INFO - Validating ZIP format...
+2025-08-23 22:29:35,357 - INFO - ZIP format validation passed
+2025-08-23 22:29:35,357 - INFO - File pointer reset to beginning
+2025-08-23 22:29:35,357 - INFO - Opening ZIP file...
+2025-08-23 22:29:35,358 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:29:35,358 - INFO - ZIP file list: ['input_images copy/', '__MACOSX/._input_images copy', 'input_images copy/.DS_Store', '__MACOSX/input_images copy/._.DS_Store', 'input_images copy/6292393310444/', '__MACOSX/input_images copy/._6292393310444', 'input_images copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/input_images copy/6292393310444/._6292393310444_0002.jpg', 'input_images copy/6292393310444/closeup(1).jpg', '__MACOSX/input_images copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:29:35,358 - INFO - Testing ZIP integrity...
+2025-08-23 22:29:35,370 - INFO - ZIP integrity test passed
+2025-08-23 22:29:35,370 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/input_images
+2025-08-23 22:29:35,386 - INFO - Successfully extracted input_images copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/input_images
+2025-08-23 22:29:35,386 - INFO - Extracted files: ['input_images copy', '__MACOSX']
+2025-08-23 22:29:35,386 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:29:35,386 - INFO - Images ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/input_images
+2025-08-23 22:29:35,386 - INFO - Attempting to extract masks ZIP: masks copy.zip
+2025-08-23 22:29:35,386 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:29:35,386 - INFO - Filename: masks copy.zip
+2025-08-23 22:29:35,386 - INFO - Content type: application/zip
+2025-08-23 22:29:35,386 - INFO - File size: 179063
+2025-08-23 22:29:35,386 - INFO - Reading file content...
+2025-08-23 22:29:35,387 - INFO - Content read successfully. Size: 179063 bytes
+2025-08-23 22:29:35,387 - INFO - Creating BytesIO object...
+2025-08-23 22:29:35,387 - INFO - BytesIO object created successfully
+2025-08-23 22:29:35,387 - INFO - Validating ZIP format...
+2025-08-23 22:29:35,387 - INFO - ZIP format validation passed
+2025-08-23 22:29:35,387 - INFO - File pointer reset to beginning
+2025-08-23 22:29:35,387 - INFO - Opening ZIP file...
+2025-08-23 22:29:35,387 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:29:35,387 - INFO - ZIP file list: ['masks copy/', '__MACOSX/._masks copy', 'masks copy/.DS_Store', '__MACOSX/masks copy/._.DS_Store', 'masks copy/6292393310444/', '__MACOSX/masks copy/._6292393310444', 'masks copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/masks copy/6292393310444/._6292393310444_0002.jpg', 'masks copy/6292393310444/closeup(1).jpg', '__MACOSX/masks copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:29:35,387 - INFO - Testing ZIP integrity...
+2025-08-23 22:29:35,388 - INFO - ZIP integrity test passed
+2025-08-23 22:29:35,388 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/masks
+2025-08-23 22:29:35,392 - INFO - Successfully extracted masks copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/masks
+2025-08-23 22:29:35,392 - INFO - Extracted files: ['masks copy', '__MACOSX']
+2025-08-23 22:29:35,392 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:29:35,392 - INFO - Masks ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcj632j6s/masks
+2025-08-23 22:29:35,392 - INFO - Reading and validating prompts JSON...
+2025-08-23 22:29:35,392 - INFO - Prompts JSON content length: 1189 bytes
+2025-08-23 22:29:35,392 - INFO - Prompts JSON parsed successfully. Number of products: 1
+2025-08-23 22:29:35,392 - INFO - Product IDs: ['6292393310444']
+2025-08-23 22:29:35,392 - INFO - Loading workflow configuration...
+2025-08-23 22:29:35,393 - INFO - Workflow configuration loaded successfully
+2025-08-23 22:29:35,393 - INFO - Starting synchronous image processing...
+2025-08-23 22:29:35,393 - INFO - ComfyUI URL: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:29:35,393 - INFO - Input directory contents: ['input_images copy', '__MACOSX']
+2025-08-23 22:29:35,393 - INFO - Masks directory contents: ['masks copy', '__MACOSX']
+2025-08-23 22:29:35,393 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-23 22:29:35,393 - INFO - Starting to process images...
+2025-08-23 22:29:35,393 - INFO - Attempting to upload background image to ComfyUI server: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:29:35,535 - WARNING - Upload attempt 1 failed for WhiteBackground_Template.png: 503 Server Error: Service Unavailable for url: https://0b19323147381.notebooks.jarvislabs.net//upload/image
+2025-08-23 22:29:37,717 - WARNING - Upload attempt 2 failed for WhiteBackground_Template.png: 503 Server Error: Service Unavailable for url: https://0b19323147381.notebooks.jarvislabs.net//upload/image
+2025-08-23 22:29:39,849 - WARNING - Upload attempt 3 failed for WhiteBackground_Template.png: 503 Server Error: Service Unavailable for url: https://0b19323147381.notebooks.jarvislabs.net//upload/image
+2025-08-23 22:29:39,852 - ERROR - Failed to upload background file to ComfyUI server. Please check if the server at https://0b19323147381.notebooks.jarvislabs.net/ is running and accessible.
+2025-08-23 22:29:39,852 - ERROR - Fatal error during processing: Failed to upload background file to ComfyUI server. Please check if the server at https://0b19323147381.notebooks.jarvislabs.net/ is running and accessible.
+2025-08-23 22:29:39,852 - ERROR - Image processing failed: Failed to upload background file to ComfyUI server. Please check if the server at https://0b19323147381.notebooks.jarvislabs.net/ is running and accessible.
+2025-08-23 22:29:39,856 - INFO - Temporary directory cleaned up
+2025-08-23 22:29:39,857 - ERROR - Unexpected error in process_images endpoint: 
+2025-08-23 22:29:39,857 - ERROR - Error type: HTTPException
+2025-08-23 22:29:39,857 - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 704, in process_images
+    process_images_api(
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 406, in process_images_api
+    raise Exception(error_msg)
+Exception: Failed to upload background file to ComfyUI server. Please check if the server at https://0b19323147381.notebooks.jarvislabs.net/ is running and accessible.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 716, in process_images
+    raise HTTPException(status_code=500, detail=f"Image processing failed: {str(e)}")
+fastapi.exceptions.HTTPException
+

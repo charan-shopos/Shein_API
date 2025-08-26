@@ -1,0 +1,4 @@
+2025-08-23 21:57:11,198 - INFO - API startup successful - all required files found
+2025-08-23 21:57:22,863 - ERROR - Failed to extract input_images copy.zip: 'SpooledTemporaryFile' object has no attribute 'seekable'
+2025-08-23 21:57:45,616 - ERROR - Failed to extract input_images copy.zip: 'SpooledTemporaryFile' object has no attribute 'seekable'
+2025-08-23 21:57:55,234 - ERROR - Failed to extract input_images copy.zip: 'SpooledTemporaryFile' object has no attribute 'seekable'

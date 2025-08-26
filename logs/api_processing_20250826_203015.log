@@ -1,0 +1,54 @@
+2025-08-26 20:30:35,242 - INFO - === Starting image processing request ===
+2025-08-26 20:30:35,243 - INFO - Processing ZIP file: input.zip
+2025-08-26 20:30:35,424 - INFO - Processing images from /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpv65pcj27/input to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpv65pcj27/output
+2025-08-26 20:30:35,425 - INFO - Found 2 image files to process
+2025-08-26 20:30:35,562 - INFO - Processed: 6292393310444_0001.jpg -> closeup(1).jpg (renamed)
+2025-08-26 20:30:35,645 - INFO - Processed: 6292393310444_0002.jpg -> 6292393310444_0002.jpg (kept)
+2025-08-26 20:30:35,645 - INFO - Processing completed: 2 processed, 1 renamed, 1 skipped, 0 errors
+2025-08-26 20:30:35,646 - INFO - Manifest file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpv65pcj27/output/manifest.json
+2025-08-26 20:30:35,850 - INFO - ZIP created with 3 files
+2025-08-26 20:30:35,853 - INFO - MediaPipe face detection cleaned up
+2025-08-26 20:30:39,295 - INFO - Temporary directory cleaned up: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpv65pcj27
+2025-08-26 20:31:00,710 - INFO - Mask request received for file: input.zip
+2025-08-26 20:31:00,711 - INFO - Using ComfyUI URL: https://153f213342941.notebooks.jarvislabs.net/
+2025-08-26 20:31:00,711 - INFO - Reading uploaded file...
+2025-08-26 20:31:00,715 - INFO - File read: input.zip (9553135 bytes)
+2025-08-26 20:31:00,715 - INFO - Loading workflow from: Mask n8n Working/JSON.json
+2025-08-26 20:31:00,720 - INFO - Workflow JSON loaded successfully
+2025-08-26 20:31:00,720 - INFO - File 'input.zip' detected as ZIP
+2025-08-26 20:31:00,721 - INFO - Processing ZIP file with multiple images...
+2025-08-26 20:31:00,721 - INFO - Extracting images from ZIP file...
+2025-08-26 20:31:00,721 - INFO - ZIP contains 2 total files
+2025-08-26 20:31:00,725 - INFO - Extracted image 1/2: 6292393310444_0002.jpg (4042355 bytes)
+2025-08-26 20:31:00,729 - INFO - Extracted image 2/2: closeup(1).jpg (5510534 bytes)
+2025-08-26 20:31:00,729 - INFO - Successfully extracted 2 images from ZIP
+2025-08-26 20:31:00,729 - INFO - Processing image 1/2: 6292393310444_0002.jpg
+2025-08-26 20:31:00,730 - INFO - Processing single image: 6292393310444_0002.jpg
+2025-08-26 20:31:00,730 - INFO - Uploading image '6292393310444_0002.jpg' to ComfyUI as '1756220460730_6292393310444_0002.jpg'
+2025-08-26 20:31:02,028 - INFO - Successfully uploaded '1756220460730_6292393310444_0002.jpg' to ComfyUI
+2025-08-26 20:31:02,031 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 20:31:02,195 - INFO - Prompt queued successfully with ID: e856a433-b683-422a-b411-5f7b79455a4a
+2025-08-26 20:31:02,199 - INFO - Polling for results from prompt e856a433-b683-422a-b411-5f7b79455a4a...
+2025-08-26 20:31:23,035 - INFO - Results received after 20.8s and 5 polls
+2025-08-26 20:31:23,039 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 20:31:23,040 - INFO - Found output image: ComfyUI_temp_sgprk_00007_.png in 
+2025-08-26 20:31:23,256 - INFO - Successfully fetched image (130217 bytes)
+2025-08-26 20:31:23,259 - INFO - Completed processing '6292393310444_0002.jpg' in 22.5s
+2025-08-26 20:31:23,259 - INFO - Successfully processed image 1/2: 6292393310444_0002.jpg
+2025-08-26 20:31:23,259 - INFO - Processing image 2/2: closeup(1).jpg
+2025-08-26 20:31:23,260 - INFO - Processing single image: closeup(1).jpg
+2025-08-26 20:31:23,260 - INFO - Uploading image 'closeup(1).jpg' to ComfyUI as '1756220483260_closeup(1).jpg'
+2025-08-26 20:31:55,895 - INFO - Successfully uploaded '1756220483260_closeup(1).jpg' to ComfyUI
+2025-08-26 20:31:55,904 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 20:31:56,057 - INFO - Prompt queued successfully with ID: 0b2e71e3-399f-410b-8a99-9676e3f13bec
+2025-08-26 20:31:56,060 - INFO - Polling for results from prompt 0b2e71e3-399f-410b-8a99-9676e3f13bec...
+2025-08-26 20:32:16,684 - INFO - Results received after 20.6s and 5 polls
+2025-08-26 20:32:16,688 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 20:32:16,689 - INFO - Found output image: ComfyUI_temp_sgprk_00008_.png in 
+2025-08-26 20:32:16,904 - INFO - Successfully fetched image (125543 bytes)
+2025-08-26 20:32:16,907 - INFO - Completed processing 'closeup(1).jpg' in 53.6s
+2025-08-26 20:32:16,908 - INFO - Successfully processed image 2/2: closeup(1).jpg
+2025-08-26 20:32:16,908 - INFO - ZIP processing completed: 2/2 images successful
+2025-08-26 20:32:16,908 - INFO - Creating ZIP response with 2 processed images...
+2025-08-26 20:32:16,932 - INFO - ZIP response created: 176217 bytes
+2025-08-26 20:32:16,933 - INFO - Processing completed in 76.2s

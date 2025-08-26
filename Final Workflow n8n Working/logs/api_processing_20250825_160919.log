@@ -1,0 +1,76 @@
+2025-08-25 16:09:19,376 - INFO - API startup successful - all required files found
+2025-08-25 18:46:32,085 - INFO - === NEW REQUEST RECEIVED ===
+2025-08-25 18:46:32,088 - INFO - comfyui_url: https://349405dc2eb3.ngrok-free.app
+2025-08-25 18:46:32,088 - INFO - images_zip filename: input.zip
+2025-08-25 18:46:32,088 - INFO - masks_zip filename: input_processed.zip
+2025-08-25 18:46:32,088 - INFO - prompts_json filename: 6292393310444
+2025-08-25 18:46:32,089 - INFO - Creating temporary directories...
+2025-08-25 18:46:32,089 - INFO - Temp dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml
+2025-08-25 18:46:32,089 - INFO - Input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/input_images
+2025-08-25 18:46:32,089 - INFO - Masks dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/masks
+2025-08-25 18:46:32,091 - INFO - Output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/output
+2025-08-25 18:46:32,091 - INFO - Temporary directories created successfully
+2025-08-25 18:46:32,091 - INFO - Starting ZIP extraction...
+2025-08-25 18:46:32,091 - INFO - Attempting to extract images ZIP: input.zip
+2025-08-25 18:46:32,092 - INFO - === ZIP EXTRACTION START ===
+2025-08-25 18:46:32,092 - INFO - Filename: input.zip
+2025-08-25 18:46:32,093 - INFO - Content type: application/zip
+2025-08-25 18:46:32,093 - INFO - File size: 9553135
+2025-08-25 18:46:32,093 - INFO - Reading file content...
+2025-08-25 18:46:32,099 - INFO - Content read successfully. Size: 9553135 bytes
+2025-08-25 18:46:32,099 - INFO - Creating BytesIO object...
+2025-08-25 18:46:32,099 - INFO - BytesIO object created successfully
+2025-08-25 18:46:32,099 - INFO - Validating ZIP format...
+2025-08-25 18:46:32,101 - INFO - ZIP format validation passed
+2025-08-25 18:46:32,101 - INFO - File pointer reset to beginning
+2025-08-25 18:46:32,101 - INFO - Opening ZIP file...
+2025-08-25 18:46:32,103 - INFO - ZIP file opened. Number of files: 2
+2025-08-25 18:46:32,103 - INFO - ZIP file list: ['6292393310444_0002.jpg', 'closeup(1).jpg']...
+2025-08-25 18:46:32,103 - INFO - Testing ZIP integrity...
+2025-08-25 18:46:32,107 - INFO - ZIP integrity test passed
+2025-08-25 18:46:32,108 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/input_images
+2025-08-25 18:46:32,124 - INFO - Successfully extracted input.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/input_images
+2025-08-25 18:46:32,125 - INFO - Extracted files: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 18:46:32,125 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-25 18:46:32,125 - INFO - Images ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/input_images
+2025-08-25 18:46:32,125 - INFO - Attempting to extract masks ZIP: input_processed.zip
+2025-08-25 18:46:32,126 - INFO - === ZIP EXTRACTION START ===
+2025-08-25 18:46:32,126 - INFO - Filename: input_processed.zip
+2025-08-25 18:46:32,126 - INFO - Content type: application/zip
+2025-08-25 18:46:32,126 - INFO - File size: 171779
+2025-08-25 18:46:32,126 - INFO - Reading file content...
+2025-08-25 18:46:32,126 - INFO - Content read successfully. Size: 171779 bytes
+2025-08-25 18:46:32,126 - INFO - Creating BytesIO object...
+2025-08-25 18:46:32,126 - INFO - BytesIO object created successfully
+2025-08-25 18:46:32,126 - INFO - Validating ZIP format...
+2025-08-25 18:46:32,126 - INFO - ZIP format validation passed
+2025-08-25 18:46:32,126 - INFO - File pointer reset to beginning
+2025-08-25 18:46:32,126 - INFO - Opening ZIP file...
+2025-08-25 18:46:32,127 - INFO - ZIP file opened. Number of files: 2
+2025-08-25 18:46:32,127 - INFO - ZIP file list: ['6292393310444_0002.jpg', 'closeup(1).jpg']...
+2025-08-25 18:46:32,127 - INFO - Testing ZIP integrity...
+2025-08-25 18:46:32,130 - INFO - ZIP integrity test passed
+2025-08-25 18:46:32,130 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/masks
+2025-08-25 18:46:32,133 - INFO - Successfully extracted input_processed.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/masks
+2025-08-25 18:46:32,133 - INFO - Extracted files: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 18:46:32,133 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-25 18:46:32,133 - INFO - Masks ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbwhlgrml/masks
+2025-08-25 18:46:32,133 - INFO - Reading and validating prompts JSON...
+2025-08-25 18:46:32,133 - INFO - Prompts JSON content length: 1115 bytes
+2025-08-25 18:46:32,134 - INFO - Prompts JSON parsed successfully. Number of products: 1
+2025-08-25 18:46:32,134 - ERROR - Failed to read/parse prompts JSON: 'list' object has no attribute 'keys'
+2025-08-25 18:46:32,136 - INFO - Temporary directory cleaned up
+2025-08-25 18:46:32,136 - ERROR - Unexpected error in process_images endpoint: 
+2025-08-25 18:46:32,136 - ERROR - Error type: HTTPException
+2025-08-25 18:46:32,153 - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 759, in process_images
+    logger.info(f"Product IDs: {list(prompts_data.keys())}")
+AttributeError: 'list' object has no attribute 'keys'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 762, in process_images
+    raise HTTPException(status_code=400, detail=f"Invalid prompts JSON: {str(e)}")
+fastapi.exceptions.HTTPException
+

@@ -1,0 +1,94 @@
+2025-08-25 19:29:56,895 - INFO - API startup successful - all required files found
+2025-08-25 19:37:20,151 - INFO - === NEW REQUEST RECEIVED ===
+2025-08-25 19:37:20,152 - INFO - comfyui_url: https://349405dc2eb3.ngrok-free.app
+2025-08-25 19:37:20,152 - INFO - images_zip filename: input.zip
+2025-08-25 19:37:20,152 - INFO - masks_zip filename: input_processed.zip
+2025-08-25 19:37:20,152 - INFO - prompts_json filename: 6292393310444
+2025-08-25 19:37:20,152 - INFO - Creating temporary directories...
+2025-08-25 19:37:20,152 - INFO - Temp dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s
+2025-08-25 19:37:20,152 - INFO - Input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/input_images
+2025-08-25 19:37:20,152 - INFO - Masks dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/masks
+2025-08-25 19:37:20,153 - INFO - Output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/output
+2025-08-25 19:37:20,153 - INFO - Temporary directories created successfully
+2025-08-25 19:37:20,153 - INFO - Starting ZIP extraction...
+2025-08-25 19:37:20,153 - INFO - Attempting to extract images ZIP: input.zip
+2025-08-25 19:37:20,153 - INFO - === ZIP EXTRACTION START ===
+2025-08-25 19:37:20,154 - INFO - Filename: input.zip
+2025-08-25 19:37:20,154 - INFO - Content type: application/zip
+2025-08-25 19:37:20,154 - INFO - File size: 9553135
+2025-08-25 19:37:20,154 - INFO - Reading file content...
+2025-08-25 19:37:20,156 - INFO - Content read successfully. Size: 9553135 bytes
+2025-08-25 19:37:20,157 - INFO - Creating BytesIO object...
+2025-08-25 19:37:20,157 - INFO - BytesIO object created successfully
+2025-08-25 19:37:20,157 - INFO - Validating ZIP format...
+2025-08-25 19:37:20,157 - INFO - ZIP format validation passed
+2025-08-25 19:37:20,157 - INFO - File pointer reset to beginning
+2025-08-25 19:37:20,157 - INFO - Opening ZIP file...
+2025-08-25 19:37:20,157 - INFO - ZIP file opened. Number of files: 2
+2025-08-25 19:37:20,158 - INFO - ZIP file list: ['6292393310444_0002.jpg', 'closeup(1).jpg']...
+2025-08-25 19:37:20,158 - INFO - Testing ZIP integrity...
+2025-08-25 19:37:20,161 - INFO - ZIP integrity test passed
+2025-08-25 19:37:20,161 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/input_images
+2025-08-25 19:37:20,171 - INFO - Successfully extracted input.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/input_images
+2025-08-25 19:37:20,171 - INFO - Extracted files: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 19:37:20,171 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-25 19:37:20,171 - INFO - Images ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/input_images
+2025-08-25 19:37:20,171 - INFO - Attempting to extract masks ZIP: input_processed.zip
+2025-08-25 19:37:20,171 - INFO - === ZIP EXTRACTION START ===
+2025-08-25 19:37:20,171 - INFO - Filename: input_processed.zip
+2025-08-25 19:37:20,171 - INFO - Content type: application/zip
+2025-08-25 19:37:20,171 - INFO - File size: 171778
+2025-08-25 19:37:20,172 - INFO - Reading file content...
+2025-08-25 19:37:20,172 - INFO - Content read successfully. Size: 171778 bytes
+2025-08-25 19:37:20,172 - INFO - Creating BytesIO object...
+2025-08-25 19:37:20,172 - INFO - BytesIO object created successfully
+2025-08-25 19:37:20,172 - INFO - Validating ZIP format...
+2025-08-25 19:37:20,172 - INFO - ZIP format validation passed
+2025-08-25 19:37:20,172 - INFO - File pointer reset to beginning
+2025-08-25 19:37:20,172 - INFO - Opening ZIP file...
+2025-08-25 19:37:20,172 - INFO - ZIP file opened. Number of files: 2
+2025-08-25 19:37:20,172 - INFO - ZIP file list: ['6292393310444_0002.jpg', 'closeup(1).jpg']...
+2025-08-25 19:37:20,172 - INFO - Testing ZIP integrity...
+2025-08-25 19:37:20,173 - INFO - ZIP integrity test passed
+2025-08-25 19:37:20,173 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/masks
+2025-08-25 19:37:20,176 - INFO - Successfully extracted input_processed.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/masks
+2025-08-25 19:37:20,176 - INFO - Extracted files: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 19:37:20,177 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-25 19:37:20,177 - INFO - Masks ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpfdpf5d0s/masks
+2025-08-25 19:37:20,177 - INFO - Reading and validating prompts JSON...
+2025-08-25 19:37:20,177 - INFO - Prompts JSON content length: 1237 bytes
+2025-08-25 19:37:20,178 - INFO - Converting list format to dictionary format...
+2025-08-25 19:37:20,178 - WARNING - Skipping invalid item at index 0: {'6292393310444': {'folder_id': '6292393310444', 'description': 'Wearing a black oversized graphic t-shirt featuring a colorful illustration of Rick Sanchez on the back, with the name "RICK SANCHEZ" printed below the design, paired with black relaxed-fit shorts, and completed with casual sneakers.', 'background_suggestion': 'Urban street', 'gender': 'Men', 'text': 'Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black oversized graphic t-shirt featuring a colorful illustration of Rick Sanchez on the back, with the name "RICK SANCHEZ" printed below the design, paired with black relaxed-fit shorts, and completed with casual sneakers.  ((walking confidently on a city sidewalk)), ((modern urban street setting with textured walls, light stone pavement, and subtle background elements like a bicycle and warm sunlight 1.3)), in a clean style, detailed, ((professional apparel photography 1.4)). Camera Used: Sony Alpha, Camera Angle: half-body pose, Lighting: soft natural daylight with gentle contrast, ultra photorealistic, highlighting textures and details, crisp focus, HD quality.', 'style_image': 'Urban street'}}
+2025-08-25 19:37:20,178 - INFO - Converted 0 list items to dictionary format
+2025-08-25 19:37:20,178 - INFO - Prompts JSON parsed successfully. Number of products: 0
+2025-08-25 19:37:20,178 - INFO - Product IDs: []
+2025-08-25 19:37:20,178 - INFO - Loading workflow configuration...
+2025-08-25 19:37:20,180 - INFO - Workflow configuration loaded successfully
+2025-08-25 19:37:20,180 - INFO - Starting synchronous image processing...
+2025-08-25 19:37:20,180 - INFO - ComfyUI URL: https://349405dc2eb3.ngrok-free.app
+2025-08-25 19:37:20,180 - INFO - Input directory contents: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 19:37:20,180 - INFO - Masks directory contents: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 19:37:20,180 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-25 19:37:20,180 - INFO - Starting to process images...
+2025-08-25 19:37:20,180 - INFO - Attempting to upload background image to ComfyUI server: https://349405dc2eb3.ngrok-free.app
+2025-08-25 19:37:20,997 - INFO - Uploaded WhiteBackground_Template.png as WhiteBackground_Template_20250825_193720_89611747.png (Content-Type: image/png)
+2025-08-25 19:37:21,000 - ERROR - No style images referenced in prompts.json
+2025-08-25 19:37:21,000 - ERROR - Fatal error during processing: No style images referenced in prompts.json
+2025-08-25 19:37:21,001 - ERROR - Image processing failed: No style images referenced in prompts.json
+2025-08-25 19:37:21,003 - INFO - Temporary directory cleaned up
+2025-08-25 19:37:21,003 - ERROR - Unexpected error in process_images endpoint: 
+2025-08-25 19:37:21,003 - ERROR - Error type: HTTPException
+2025-08-25 19:37:21,007 - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 798, in process_images
+    process_images_api(
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 431, in process_images_api
+    raise Exception(error_msg)
+Exception: No style images referenced in prompts.json
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 810, in process_images
+    raise HTTPException(status_code=500, detail=f"Image processing failed: {str(e)}")
+fastapi.exceptions.HTTPException
+

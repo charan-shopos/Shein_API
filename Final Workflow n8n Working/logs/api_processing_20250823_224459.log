@@ -1,0 +1,258 @@
+2025-08-23 22:44:59,097 - INFO - API startup successful - all required files found
+2025-08-23 22:45:09,600 - INFO - === NEW REQUEST RECEIVED ===
+2025-08-23 22:45:09,601 - INFO - comfyui_url: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:45:09,601 - INFO - images_zip filename: input_images copy.zip
+2025-08-23 22:45:09,601 - INFO - masks_zip filename: masks copy.zip
+2025-08-23 22:45:09,601 - INFO - prompts_json filename: Prompts copy.json
+2025-08-23 22:45:09,601 - INFO - Creating temporary directories...
+2025-08-23 22:45:09,602 - INFO - Temp dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy
+2025-08-23 22:45:09,602 - INFO - Input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/input_images
+2025-08-23 22:45:09,602 - INFO - Masks dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/masks
+2025-08-23 22:45:09,602 - INFO - Output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output
+2025-08-23 22:45:09,603 - INFO - Temporary directories created successfully
+2025-08-23 22:45:09,603 - INFO - Starting ZIP extraction...
+2025-08-23 22:45:09,603 - INFO - Attempting to extract images ZIP: input_images copy.zip
+2025-08-23 22:45:09,603 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:45:09,603 - INFO - Filename: input_images copy.zip
+2025-08-23 22:45:09,603 - INFO - Content type: application/zip
+2025-08-23 22:45:09,603 - INFO - File size: 9540777
+2025-08-23 22:45:09,603 - INFO - Reading file content...
+2025-08-23 22:45:09,607 - INFO - Content read successfully. Size: 9540777 bytes
+2025-08-23 22:45:09,608 - INFO - Creating BytesIO object...
+2025-08-23 22:45:09,608 - INFO - BytesIO object created successfully
+2025-08-23 22:45:09,608 - INFO - Validating ZIP format...
+2025-08-23 22:45:09,610 - INFO - ZIP format validation passed
+2025-08-23 22:45:09,610 - INFO - File pointer reset to beginning
+2025-08-23 22:45:09,610 - INFO - Opening ZIP file...
+2025-08-23 22:45:09,611 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:45:09,611 - INFO - ZIP file list: ['input_images copy/', '__MACOSX/._input_images copy', 'input_images copy/.DS_Store', '__MACOSX/input_images copy/._.DS_Store', 'input_images copy/6292393310444/', '__MACOSX/input_images copy/._6292393310444', 'input_images copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/input_images copy/6292393310444/._6292393310444_0002.jpg', 'input_images copy/6292393310444/closeup(1).jpg', '__MACOSX/input_images copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:45:09,611 - INFO - Testing ZIP integrity...
+2025-08-23 22:45:09,634 - INFO - ZIP integrity test passed
+2025-08-23 22:45:09,634 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/input_images
+2025-08-23 22:45:09,659 - INFO - Successfully extracted input_images copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/input_images
+2025-08-23 22:45:09,659 - INFO - Extracted files: ['input_images copy', '__MACOSX']
+2025-08-23 22:45:09,659 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:45:09,659 - INFO - Images ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/input_images
+2025-08-23 22:45:09,659 - INFO - Attempting to extract masks ZIP: masks copy.zip
+2025-08-23 22:45:09,660 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:45:09,660 - INFO - Filename: masks copy.zip
+2025-08-23 22:45:09,660 - INFO - Content type: application/zip
+2025-08-23 22:45:09,660 - INFO - File size: 179063
+2025-08-23 22:45:09,660 - INFO - Reading file content...
+2025-08-23 22:45:09,660 - INFO - Content read successfully. Size: 179063 bytes
+2025-08-23 22:45:09,660 - INFO - Creating BytesIO object...
+2025-08-23 22:45:09,660 - INFO - BytesIO object created successfully
+2025-08-23 22:45:09,660 - INFO - Validating ZIP format...
+2025-08-23 22:45:09,660 - INFO - ZIP format validation passed
+2025-08-23 22:45:09,660 - INFO - File pointer reset to beginning
+2025-08-23 22:45:09,660 - INFO - Opening ZIP file...
+2025-08-23 22:45:09,660 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:45:09,660 - INFO - ZIP file list: ['masks copy/', '__MACOSX/._masks copy', 'masks copy/.DS_Store', '__MACOSX/masks copy/._.DS_Store', 'masks copy/6292393310444/', '__MACOSX/masks copy/._6292393310444', 'masks copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/masks copy/6292393310444/._6292393310444_0002.jpg', 'masks copy/6292393310444/closeup(1).jpg', '__MACOSX/masks copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:45:09,660 - INFO - Testing ZIP integrity...
+2025-08-23 22:45:09,661 - INFO - ZIP integrity test passed
+2025-08-23 22:45:09,661 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/masks
+2025-08-23 22:45:09,665 - INFO - Successfully extracted masks copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/masks
+2025-08-23 22:45:09,665 - INFO - Extracted files: ['masks copy', '__MACOSX']
+2025-08-23 22:45:09,665 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:45:09,665 - INFO - Masks ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/masks
+2025-08-23 22:45:09,665 - INFO - Reading and validating prompts JSON...
+2025-08-23 22:45:09,665 - INFO - Prompts JSON content length: 1189 bytes
+2025-08-23 22:45:09,665 - INFO - Prompts JSON parsed successfully. Number of products: 1
+2025-08-23 22:45:09,665 - INFO - Product IDs: ['6292393310444']
+2025-08-23 22:45:09,665 - INFO - Loading workflow configuration...
+2025-08-23 22:45:09,666 - INFO - Workflow configuration loaded successfully
+2025-08-23 22:45:09,666 - INFO - Starting synchronous image processing...
+2025-08-23 22:45:09,666 - INFO - ComfyUI URL: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:45:09,666 - INFO - Input directory contents: ['input_images copy', '__MACOSX']
+2025-08-23 22:45:09,666 - INFO - Masks directory contents: ['masks copy', '__MACOSX']
+2025-08-23 22:45:09,666 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-23 22:45:09,666 - INFO - Starting to process images...
+2025-08-23 22:45:09,666 - INFO - Attempting to upload background image to ComfyUI server: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:45:10,054 - INFO - Uploaded WhiteBackground_Template.png as WhiteBackground_Template_20250823_224509_09ee182a.png (Content-Type: image/png)
+2025-08-23 22:45:10,057 - INFO - Found 1 unique style images referenced in prompts.json
+2025-08-23 22:45:10,057 - INFO - Required style images: Urban street
+2025-08-23 22:45:10,060 - INFO - Found matching files for all 1 required style images
+2025-08-23 22:45:10,060 - INFO - Uploading required style image: Urban street.jpg -> Urban street
+2025-08-23 22:45:10,291 - INFO - Uploaded Urban street.jpg as Urban street_20250823_224510_e1d655db.jpg (Content-Type: image/jpeg)
+2025-08-23 22:45:10,295 - INFO - Successfully uploaded style image for 'Urban street'
+2025-08-23 22:45:10,295 - INFO - Successfully uploaded all 1 required style images
+2025-08-23 22:45:10,295 - INFO - Processing product ID: 6292393310444
+2025-08-23 22:45:10,295 - INFO - Processing product 6292393310444 (1/1) - Progress: 100%
+2025-08-23 22:45:10,295 - INFO - Looking for style image: Urban street
+2025-08-23 22:45:10,296 - INFO - Found input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/input_images/input_images copy/6292393310444
+2025-08-23 22:45:10,296 - INFO - Found mask dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/masks/masks copy/6292393310444
+2025-08-23 22:45:10,297 - INFO - Created output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output/6292393310444
+2025-08-23 22:45:10,751 - INFO - Uploaded 6292393310444_0002.jpg as 6292393310444_0002_20250823_224510_517e0780.jpg (Content-Type: image/jpeg)
+2025-08-23 22:45:10,847 - INFO - Uploaded 6292393310444_0002.jpg as 6292393310444_0002_20250823_224510_31b2a440.jpg (Content-Type: image/jpeg)
+2025-08-23 22:45:10,849 - INFO - === ORIGINAL WORKFLOW DEBUG ===
+2025-08-23 22:45:10,849 - INFO - Original workflow has 87 nodes
+2025-08-23 22:45:10,849 - INFO - Original node 454 inputs: {'image': 'backpos (1)_variant_1.png', 'resize': False, 'width': 512, 'height': 512, 'repeat': 1, 'keep_proportion': False, 'divisible_by': 2, 'mask_channel': 'alpha', 'background_color': ''}
+2025-08-23 22:45:10,849 - INFO - Original node 439 inputs: {'image': 'closeup (1) (2).png'}
+2025-08-23 22:45:10,850 - INFO - Original node 256 inputs: {'image': 'White Background_Template.png'}
+2025-08-23 22:45:10,850 - INFO - Original node 110 inputs: {'image': 'Hotel Lobby.jpg'}
+2025-08-23 22:45:10,850 - INFO - Original node 448 inputs: {'string': 'Generate a scene of a young European female model (23 years old) with a white skin tone, light brown hair,with ((perfectly drawn hands 1.4)),, Wearing a black fitted top, paired with a black asymmetric skirt with sheer panel detailing, and completed with no visible footwear.,  ((standing confidently in a relaxed pose in a modern, bright hotel lobby, one hand resting on her hip and the other holding a small handbag, with a composed expression 1.3)), ((bright and spacious hotel lobby with light wood paneling, polished floors, modern lighting, and contemporary furniture with minimalist décor, creating a fresh and welcoming atmosphere 1.3)), in a clean style, detailed, ((professional apparel photography 1.4)). Camera Used: Sony Alpha, Camera Angle: full-body shot, straight-on, Lighting: bright, neutral hotel lighting that illuminates the model and dress perfectly, Contrast Color, ultra photorealistic, highlighting textures and details, depth of field, crisp focus, HD quality.'}
+2025-08-23 22:45:10,851 - INFO - Updated input image (454) with: 6292393310444_0002_20250823_224510_517e0780.jpg
+2025-08-23 22:45:10,851 - INFO - Updated mask image (439) with: 6292393310444_0002_20250823_224510_31b2a440.jpg
+2025-08-23 22:45:10,851 - INFO - Updated background image (256) with: WhiteBackground_Template_20250823_224509_09ee182a.png
+2025-08-23 22:45:10,851 - INFO - Updated style image (110) with: Urban street_20250823_224510_e1d655db.jpg
+2025-08-23 22:45:10,851 - INFO - Updated prompt text in node 448: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscu...
+2025-08-23 22:45:10,851 - INFO - === UPDATED WORKFLOW DEBUG ===
+2025-08-23 22:45:10,851 - INFO - Updated workflow has 87 nodes
+2025-08-23 22:45:10,852 - INFO - Updated node 454 inputs: {'image': '6292393310444_0002_20250823_224510_517e0780.jpg', 'resize': False, 'width': 512, 'height': 512, 'repeat': 1, 'keep_proportion': False, 'divisible_by': 2, 'mask_channel': 'alpha', 'background_color': ''}
+2025-08-23 22:45:10,852 - INFO - Updated node 439 inputs: {'image': '6292393310444_0002_20250823_224510_31b2a440.jpg'}
+2025-08-23 22:45:10,852 - INFO - Updated node 256 inputs: {'image': 'WhiteBackground_Template_20250823_224509_09ee182a.png'}
+2025-08-23 22:45:10,852 - INFO - Updated node 110 inputs: {'image': 'Urban street_20250823_224510_e1d655db.jpg'}
+2025-08-23 22:45:10,852 - INFO - Updated node 448 inputs: {'string': 'Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black relaxed-fit t-shirt with a multi-colored graphic logo on the chest, paired with black loose-fit trousers with a minimalistic design, and completed with white chunky sneakers.  ((walking confidently on a city sidewalk)), ((modern urban street setting with textured walls, light stone pavement, and subtle background elements like a bicycle and warm sunlight 1.3)), in a clean style, detailed, ((professional apparel photography 1.4)). Camera Used: Sony Alpha, Camera Angle: half-body pose, Lighting: soft natural daylight with gentle contrast, ultra photorealistic, highlighting textures and details, crisp focus, HD quality.'}
+2025-08-23 22:45:10,852 - INFO - Submitting workflow to: https://0b19323147381.notebooks.jarvislabs.net/prompt
+2025-08-23 22:45:10,852 - INFO - Workflow has 87 nodes
+2025-08-23 22:45:10,852 - INFO - Key nodes present: ['454', '439', '256', '110', '448']
+2025-08-23 22:45:10,853 - INFO - === WORKFLOW SUBMISSION DEBUG ===
+2025-08-23 22:45:10,853 - INFO - Image file: 6292393310444_0002.jpg
+2025-08-23 22:45:10,853 - INFO - Input node 454: 6292393310444_0002_20250823_224510_517e0780.jpg
+2025-08-23 22:45:10,853 - INFO - Mask node 439: 6292393310444_0002_20250823_224510_31b2a440.jpg
+2025-08-23 22:45:10,853 - INFO - Background node 256: WhiteBackground_Template_20250823_224509_09ee182a.png
+2025-08-23 22:45:10,853 - INFO - Style node 110: Urban street_20250823_224510_e1d655db.jpg
+2025-08-23 22:45:10,853 - INFO - Prompt node 448: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black relaxed-fit t-shirt with a...
+2025-08-23 22:45:10,855 - INFO - Request payload size: 16613 characters
+2025-08-23 22:45:10,855 - INFO - Request payload keys: ['prompt']
+2025-08-23 22:45:12,137 - INFO - === COMFYUI RESPONSE DEBUG ===
+2025-08-23 22:45:12,138 - INFO - Response status code: 200
+2025-08-23 22:45:12,138 - INFO - Response headers: {'Date': 'Sat, 23 Aug 2025 17:15:12 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Cf-Cache-Status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ut1Ill4H2EuCdE7nwyHfwZNEweRb5ujMqhloisDHjHcDGSXQFI%2F56E3YJvqh651zUZukJk8MZXeATLxD48GBZcyE%2BLi2tm%2B0pOLNhhZDHnfiGN7qaoFUy4%2FjbKcaNM5xaD4xaC9Cns0MVlk7C6Uzyhg%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '973c40214a257f9d-MAA'}
+2025-08-23 22:45:12,138 - INFO - Response content: {"prompt_id": "aadae2bd-593e-4c96-88ea-3c0b27d3a4ab", "number": 0, "node_errors": {}}...
+2025-08-23 22:45:12,138 - INFO - Queued prompt aadae2bd-593e-4c96-88ea-3c0b27d3a4ab for 6292393310444_0002.jpg
+2025-08-23 22:45:12,138 - INFO - [PROMPT SEND CHECK] Node 448 content: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black relaxed-fit t-shirt with a...
+2025-08-23 22:45:12,233 - INFO - Processing... attempt 1/100
+2025-08-23 22:45:17,307 - INFO - Processing... attempt 2/100
+2025-08-23 22:45:22,390 - INFO - Processing... attempt 3/100
+2025-08-23 22:45:27,484 - INFO - Processing... attempt 4/100
+2025-08-23 22:45:32,600 - INFO - Processing... attempt 5/100
+2025-08-23 22:45:37,680 - INFO - Processing... attempt 6/100
+2025-08-23 22:45:42,751 - INFO - Processing... attempt 7/100
+2025-08-23 22:45:47,862 - INFO - Processing... attempt 8/100
+2025-08-23 22:45:52,932 - INFO - Processing... attempt 9/100
+2025-08-23 22:45:58,012 - INFO - Processing... attempt 10/100
+2025-08-23 22:46:03,082 - INFO - Processing... attempt 11/100
+2025-08-23 22:46:08,205 - INFO - Processing... attempt 12/100
+2025-08-23 22:46:13,300 - INFO - Processing... attempt 13/100
+2025-08-23 22:46:18,401 - INFO - Processing... attempt 14/100
+2025-08-23 22:46:23,507 - INFO - Processing... attempt 15/100
+2025-08-23 22:46:28,600 - INFO - Processing... attempt 16/100
+2025-08-23 22:46:33,701 - INFO - Processing... attempt 17/100
+2025-08-23 22:46:38,799 - INFO - Processing... attempt 18/100
+2025-08-23 22:46:43,906 - INFO - Processing... attempt 19/100
+2025-08-23 22:46:48,981 - INFO - Processing... attempt 20/100
+2025-08-23 22:46:54,068 - INFO - Processing... attempt 21/100
+2025-08-23 22:46:59,141 - INFO - Processing... attempt 22/100
+2025-08-23 22:47:04,221 - INFO - Processing... attempt 23/100
+2025-08-23 22:47:09,294 - INFO - Processing... attempt 24/100
+2025-08-23 22:47:14,393 - INFO - Processing... attempt 25/100
+2025-08-23 22:47:19,460 - INFO - Processing... attempt 26/100
+2025-08-23 22:47:24,528 - INFO - Processing... attempt 27/100
+2025-08-23 22:47:29,598 - INFO - Processing... attempt 28/100
+2025-08-23 22:47:34,669 - INFO - Processing... attempt 29/100
+2025-08-23 22:47:39,739 - INFO - Processing... attempt 30/100
+2025-08-23 22:47:44,802 - INFO - Processing... attempt 31/100
+2025-08-23 22:47:49,877 - INFO - Processing... attempt 32/100
+2025-08-23 22:47:54,939 - INFO - Processing... attempt 33/100
+2025-08-23 22:48:00,058 - INFO - Processing... attempt 34/100
+2025-08-23 22:48:05,214 - INFO - Processing... attempt 35/100
+2025-08-23 22:48:10,313 - INFO - Processing... attempt 36/100
+2025-08-23 22:48:15,383 - INFO - Processing... attempt 37/100
+2025-08-23 22:48:22,604 - INFO - Processing... attempt 38/100
+2025-08-23 22:48:27,728 - INFO - Processing... attempt 39/100
+2025-08-23 22:48:32,828 - INFO - Processing... attempt 40/100
+2025-08-23 22:48:37,906 - INFO - Processing... attempt 41/100
+2025-08-23 22:48:42,975 - INFO - Processing... attempt 42/100
+2025-08-23 22:48:48,054 - INFO - Processing... attempt 43/100
+2025-08-23 22:48:53,168 - INFO - Processing... attempt 44/100
+2025-08-23 22:48:58,277 - INFO - Processing... attempt 45/100
+2025-08-23 22:49:03,344 - INFO - Processing... attempt 46/100
+2025-08-23 22:49:08,409 - INFO - Processing... attempt 47/100
+2025-08-23 22:49:13,482 - INFO - Processing... attempt 48/100
+2025-08-23 22:49:18,561 - INFO - Processing... attempt 49/100
+2025-08-23 22:49:23,627 - INFO - Processing... attempt 50/100
+2025-08-23 22:49:28,736 - INFO - Processing... attempt 51/100
+2025-08-23 22:49:33,854 - INFO - Processing... attempt 52/100
+2025-08-23 22:49:38,936 - INFO - Processing... attempt 53/100
+2025-08-23 22:49:44,012 - INFO - Processing... attempt 54/100
+2025-08-23 22:49:49,070 - INFO - Processing... attempt 55/100
+2025-08-23 22:49:54,148 - INFO - Processing... attempt 56/100
+2025-08-23 22:49:59,229 - INFO - Processing completed after 57 attempts
+2025-08-23 22:49:59,804 - INFO - Saved: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output/6292393310444/6292393310444_0002_variant_1.jpg
+2025-08-23 22:49:59,805 - INFO - Saved: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output/6292393310444/6292393310444_0002_variant_2.jpg
+2025-08-23 22:49:59,806 - INFO - Saved: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output/6292393310444/6292393310444_0002_variant_3.jpg
+2025-08-23 22:49:59,859 - INFO - Successfully processed 6292393310444_0002.jpg
+2025-08-23 22:50:01,815 - INFO - Uploaded closeup(1).jpg as closeup(1)_20250823_225000_88efe4f9.jpg (Content-Type: image/jpeg)
+2025-08-23 22:50:01,899 - INFO - Uploaded closeup(1).jpg as closeup(1)_20250823_225001_61f6c2fb.jpg (Content-Type: image/jpeg)
+2025-08-23 22:50:01,901 - INFO - === ORIGINAL WORKFLOW DEBUG ===
+2025-08-23 22:50:01,902 - INFO - Original workflow has 87 nodes
+2025-08-23 22:50:01,902 - INFO - Original node 454 inputs: {'image': 'backpos (1)_variant_1.png', 'resize': False, 'width': 512, 'height': 512, 'repeat': 1, 'keep_proportion': False, 'divisible_by': 2, 'mask_channel': 'alpha', 'background_color': ''}
+2025-08-23 22:50:01,902 - INFO - Original node 439 inputs: {'image': 'closeup (1) (2).png'}
+2025-08-23 22:50:01,902 - INFO - Original node 256 inputs: {'image': 'White Background_Template.png'}
+2025-08-23 22:50:01,902 - INFO - Original node 110 inputs: {'image': 'Hotel Lobby.jpg'}
+2025-08-23 22:50:01,902 - INFO - Original node 448 inputs: {'string': 'Generate a scene of a young European female model (23 years old) with a white skin tone, light brown hair,with ((perfectly drawn hands 1.4)),, Wearing a black fitted top, paired with a black asymmetric skirt with sheer panel detailing, and completed with no visible footwear.,  ((standing confidently in a relaxed pose in a modern, bright hotel lobby, one hand resting on her hip and the other holding a small handbag, with a composed expression 1.3)), ((bright and spacious hotel lobby with light wood paneling, polished floors, modern lighting, and contemporary furniture with minimalist décor, creating a fresh and welcoming atmosphere 1.3)), in a clean style, detailed, ((professional apparel photography 1.4)). Camera Used: Sony Alpha, Camera Angle: full-body shot, straight-on, Lighting: bright, neutral hotel lighting that illuminates the model and dress perfectly, Contrast Color, ultra photorealistic, highlighting textures and details, depth of field, crisp focus, HD quality.'}
+2025-08-23 22:50:01,903 - INFO - Updated input image (454) with: closeup(1)_20250823_225000_88efe4f9.jpg
+2025-08-23 22:50:01,903 - INFO - Updated mask image (439) with: closeup(1)_20250823_225001_61f6c2fb.jpg
+2025-08-23 22:50:01,903 - INFO - Updated background image (256) with: WhiteBackground_Template_20250823_224509_09ee182a.png
+2025-08-23 22:50:01,903 - INFO - Updated style image (110) with: Urban street_20250823_224510_e1d655db.jpg
+2025-08-23 22:50:01,904 - INFO - Updated prompt text in node 448: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscu...
+2025-08-23 22:50:01,904 - INFO - === UPDATED WORKFLOW DEBUG ===
+2025-08-23 22:50:01,904 - INFO - Updated workflow has 87 nodes
+2025-08-23 22:50:01,904 - INFO - Updated node 454 inputs: {'image': 'closeup(1)_20250823_225000_88efe4f9.jpg', 'resize': False, 'width': 512, 'height': 512, 'repeat': 1, 'keep_proportion': False, 'divisible_by': 2, 'mask_channel': 'alpha', 'background_color': ''}
+2025-08-23 22:50:01,904 - INFO - Updated node 439 inputs: {'image': 'closeup(1)_20250823_225001_61f6c2fb.jpg'}
+2025-08-23 22:50:01,904 - INFO - Updated node 256 inputs: {'image': 'WhiteBackground_Template_20250823_224509_09ee182a.png'}
+2025-08-23 22:50:01,904 - INFO - Updated node 110 inputs: {'image': 'Urban street_20250823_224510_e1d655db.jpg'}
+2025-08-23 22:50:01,904 - INFO - Updated node 448 inputs: {'string': 'Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black relaxed-fit t-shirt with a multi-colored graphic logo on the chest, paired with black loose-fit trousers with a minimalistic design, and completed with white chunky sneakers.  ((walking confidently on a city sidewalk)), ((modern urban street setting with textured walls, light stone pavement, and subtle background elements like a bicycle and warm sunlight 1.3)), in a clean style, detailed, ((professional apparel photography 1.4)). Camera Used: Sony Alpha, Camera Angle: half-body pose, Lighting: soft natural daylight with gentle contrast, ultra photorealistic, highlighting textures and details, crisp focus, HD quality.'}
+2025-08-23 22:50:01,904 - INFO - Submitting workflow to: https://0b19323147381.notebooks.jarvislabs.net/prompt
+2025-08-23 22:50:01,904 - INFO - Workflow has 87 nodes
+2025-08-23 22:50:01,904 - INFO - Key nodes present: ['454', '439', '256', '110', '448']
+2025-08-23 22:50:01,905 - INFO - === WORKFLOW SUBMISSION DEBUG ===
+2025-08-23 22:50:01,905 - INFO - Image file: closeup(1).jpg
+2025-08-23 22:50:01,905 - INFO - Input node 454: closeup(1)_20250823_225000_88efe4f9.jpg
+2025-08-23 22:50:01,905 - INFO - Mask node 439: closeup(1)_20250823_225001_61f6c2fb.jpg
+2025-08-23 22:50:01,905 - INFO - Background node 256: WhiteBackground_Template_20250823_224509_09ee182a.png
+2025-08-23 22:50:01,905 - INFO - Style node 110: Urban street_20250823_224510_e1d655db.jpg
+2025-08-23 22:50:01,905 - INFO - Prompt node 448: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black relaxed-fit t-shirt with a...
+2025-08-23 22:50:01,906 - INFO - Request payload size: 16597 characters
+2025-08-23 22:50:01,906 - INFO - Request payload keys: ['prompt']
+2025-08-23 22:50:03,265 - INFO - === COMFYUI RESPONSE DEBUG ===
+2025-08-23 22:50:03,265 - INFO - Response status code: 200
+2025-08-23 22:50:03,265 - INFO - Response headers: {'Date': 'Sat, 23 Aug 2025 17:20:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Cf-Cache-Status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IfwZxAU1h7iTywXp4XCTACPtFhb50NBdRaoiPrRyOiGMZrKm8%2Bec5wVlKWnQdRq3KknBoW6pGw%2FIgMacdAkCJmDN8IaF0cejHUG%2FCtnznI%2BwaBzg9cBJcWLnYHZLpiXWZmxROByIuiM1dDia7DUpdWo%3D"}]}', 'Content-Encoding': 'gzip', 'CF-RAY': '973c473c3dd73c01-BLR'}
+2025-08-23 22:50:03,265 - INFO - Response content: {"prompt_id": "44ffe23f-d640-4a1e-96b1-7ec492c54d62", "number": 1, "node_errors": {}}...
+2025-08-23 22:50:03,265 - INFO - Queued prompt 44ffe23f-d640-4a1e-96b1-7ec492c54d62 for closeup(1).jpg
+2025-08-23 22:50:03,265 - INFO - [PROMPT SEND CHECK] Node 448 content: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black relaxed-fit t-shirt with a...
+2025-08-23 22:50:03,324 - INFO - Processing... attempt 1/100
+2025-08-23 22:50:08,419 - INFO - Processing... attempt 2/100
+2025-08-23 22:50:13,485 - INFO - Processing... attempt 3/100
+2025-08-23 22:50:18,548 - INFO - Processing... attempt 4/100
+2025-08-23 22:50:23,620 - INFO - Processing... attempt 5/100
+2025-08-23 22:50:28,693 - INFO - Processing... attempt 6/100
+2025-08-23 22:50:33,765 - INFO - Processing... attempt 7/100
+2025-08-23 22:50:38,860 - INFO - Processing... attempt 8/100
+2025-08-23 22:50:43,936 - INFO - Processing... attempt 9/100
+2025-08-23 22:50:49,016 - INFO - Processing... attempt 10/100
+2025-08-23 22:50:54,093 - INFO - Processing... attempt 11/100
+2025-08-23 22:50:59,164 - INFO - Processing... attempt 12/100
+2025-08-23 22:51:04,236 - INFO - Processing... attempt 13/100
+2025-08-23 22:51:09,308 - INFO - Processing completed after 14 attempts
+2025-08-23 22:51:09,866 - INFO - Saved: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output/6292393310444/closeup(1)_variant_1.jpg
+2025-08-23 22:51:09,867 - INFO - Saved: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output/6292393310444/closeup(1)_variant_2.jpg
+2025-08-23 22:51:09,867 - INFO - Saved: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/output/6292393310444/closeup(1)_variant_3.jpg
+2025-08-23 22:51:09,927 - INFO - Successfully processed closeup(1).jpg
+2025-08-23 22:51:10,929 - INFO - Processing completed successfully!
+2025-08-23 22:51:10,929 - INFO - Total products processed: 1
+2025-08-23 22:51:10,929 - INFO - Successful images: 2
+2025-08-23 22:51:10,929 - INFO - Failed images: 0
+2025-08-23 22:51:10,930 - INFO - Image processing completed successfully
+2025-08-23 22:51:10,931 - INFO - Creating final ZIP file...
+2025-08-23 22:51:10,931 - INFO - Found 6 processed images: ['closeup(1)_variant_1.jpg', 'closeup(1)_variant_2.jpg', 'closeup(1)_variant_3.jpg', '6292393310444_0002_variant_2.jpg', '6292393310444_0002_variant_3.jpg', '6292393310444_0002_variant_1.jpg']
+2025-08-23 22:51:10,934 - INFO - Added to ZIP: 6292393310444/closeup(1)_variant_1.jpg
+2025-08-23 22:51:10,936 - INFO - Added to ZIP: 6292393310444/closeup(1)_variant_2.jpg
+2025-08-23 22:51:10,938 - INFO - Added to ZIP: 6292393310444/closeup(1)_variant_3.jpg
+2025-08-23 22:51:10,941 - INFO - Added to ZIP: 6292393310444/6292393310444_0002_variant_2.jpg
+2025-08-23 22:51:10,946 - INFO - Added to ZIP: 6292393310444/6292393310444_0002_variant_3.jpg
+2025-08-23 22:51:10,950 - INFO - Added to ZIP: 6292393310444/6292393310444_0002_variant_1.jpg
+2025-08-23 22:51:10,951 - INFO - ZIP file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp2to1x7qy/processed_images_1755969670.zip
+2025-08-23 22:51:10,951 - INFO - ZIP file size: 9024149 bytes
+2025-08-23 22:51:10,953 - INFO - === REQUEST PROCESSING COMPLETED SUCCESSFULLY ===
+2025-08-23 22:51:10,959 - INFO - Temporary directory cleaned up

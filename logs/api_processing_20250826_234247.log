@@ -1,0 +1,2 @@
+2025-08-26 23:42:59,573 - INFO - Health check requested
+2025-08-26 23:42:59,574 - ERROR - No comfy_url provided via form field, header (x-comfy-url), or query parameter

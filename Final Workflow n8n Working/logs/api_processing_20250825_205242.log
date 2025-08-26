@@ -1,0 +1,251 @@
+2025-08-25 20:52:42,690 - INFO - API startup successful - all required files found
+2025-08-25 21:18:05,673 - INFO - === NEW REQUEST RECEIVED ===
+2025-08-25 21:18:05,674 - INFO - comfyui_url: https://153f213342941.notebooks.jarvislabs.net
+2025-08-25 21:18:05,674 - INFO - images_zip filename: input.zip
+2025-08-25 21:18:05,674 - INFO - masks_zip filename: input_processed.zip
+2025-08-25 21:18:05,674 - INFO - prompts_json filename: 6292393310444
+2025-08-25 21:18:05,674 - INFO - Creating temporary directories...
+2025-08-25 21:18:05,675 - INFO - Temp dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh
+2025-08-25 21:18:05,675 - INFO - Input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/input_images
+2025-08-25 21:18:05,675 - INFO - Masks dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/masks
+2025-08-25 21:18:05,676 - INFO - Output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/output
+2025-08-25 21:18:05,676 - INFO - Temporary directories created successfully
+2025-08-25 21:18:05,676 - INFO - Starting ZIP extraction...
+2025-08-25 21:18:05,676 - INFO - Attempting to extract images ZIP: input.zip
+2025-08-25 21:18:05,676 - INFO - === ZIP EXTRACTION START ===
+2025-08-25 21:18:05,676 - INFO - Filename: input.zip
+2025-08-25 21:18:05,676 - INFO - Content type: application/zip
+2025-08-25 21:18:05,676 - INFO - File size: 9553135
+2025-08-25 21:18:05,676 - INFO - Reading file content...
+2025-08-25 21:18:05,678 - INFO - Content read successfully. Size: 9553135 bytes
+2025-08-25 21:18:05,678 - INFO - Creating BytesIO object...
+2025-08-25 21:18:05,678 - INFO - BytesIO object created successfully
+2025-08-25 21:18:05,678 - INFO - Validating ZIP format...
+2025-08-25 21:18:05,679 - INFO - ZIP format validation passed
+2025-08-25 21:18:05,679 - INFO - File pointer reset to beginning
+2025-08-25 21:18:05,679 - INFO - Opening ZIP file...
+2025-08-25 21:18:05,680 - INFO - ZIP file opened. Number of files: 2
+2025-08-25 21:18:05,680 - INFO - ZIP file list: ['6292393310444_0002.jpg', 'closeup(1).jpg']...
+2025-08-25 21:18:05,680 - INFO - Testing ZIP integrity...
+2025-08-25 21:18:05,686 - INFO - ZIP integrity test passed
+2025-08-25 21:18:05,686 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/input_images
+2025-08-25 21:18:05,692 - INFO - Successfully extracted input.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/input_images
+2025-08-25 21:18:05,693 - INFO - Extracted files: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 21:18:05,693 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-25 21:18:05,693 - INFO - Images ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/input_images
+2025-08-25 21:18:05,693 - INFO - Attempting to extract masks ZIP: input_processed.zip
+2025-08-25 21:18:05,693 - INFO - === ZIP EXTRACTION START ===
+2025-08-25 21:18:05,693 - INFO - Filename: input_processed.zip
+2025-08-25 21:18:05,693 - INFO - Content type: application/zip
+2025-08-25 21:18:05,693 - INFO - File size: 176216
+2025-08-25 21:18:05,693 - INFO - Reading file content...
+2025-08-25 21:18:05,694 - INFO - Content read successfully. Size: 176216 bytes
+2025-08-25 21:18:05,694 - INFO - Creating BytesIO object...
+2025-08-25 21:18:05,695 - INFO - BytesIO object created successfully
+2025-08-25 21:18:05,695 - INFO - Validating ZIP format...
+2025-08-25 21:18:05,695 - INFO - ZIP format validation passed
+2025-08-25 21:18:05,695 - INFO - File pointer reset to beginning
+2025-08-25 21:18:05,695 - INFO - Opening ZIP file...
+2025-08-25 21:18:05,695 - INFO - ZIP file opened. Number of files: 2
+2025-08-25 21:18:05,695 - INFO - ZIP file list: ['6292393310444_0002.jpg', 'closeup(1).jpg']...
+2025-08-25 21:18:05,695 - INFO - Testing ZIP integrity...
+2025-08-25 21:18:05,697 - INFO - ZIP integrity test passed
+2025-08-25 21:18:05,697 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/masks
+2025-08-25 21:18:05,700 - INFO - Successfully extracted input_processed.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/masks
+2025-08-25 21:18:05,700 - INFO - Extracted files: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 21:18:05,700 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-25 21:18:05,700 - INFO - Masks ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/masks
+2025-08-25 21:18:05,700 - INFO - Reading and validating prompts JSON...
+2025-08-25 21:18:05,700 - INFO - Prompts JSON content length: 1035 bytes
+2025-08-25 21:18:05,701 - INFO - Converting list format to dictionary format...
+2025-08-25 21:18:05,701 - INFO - Converted nested item for product 6292393310444
+2025-08-25 21:18:05,701 - INFO - Converted 1 list items to dictionary format
+2025-08-25 21:18:05,701 - INFO - Prompts JSON parsed successfully. Number of products: 1
+2025-08-25 21:18:05,701 - INFO - Product IDs: ['6292393310444']
+2025-08-25 21:18:05,701 - INFO - Loading workflow configuration...
+2025-08-25 21:18:05,702 - INFO - Workflow configuration loaded successfully
+2025-08-25 21:18:05,702 - INFO - Starting synchronous image processing...
+2025-08-25 21:18:05,702 - INFO - ComfyUI URL: https://153f213342941.notebooks.jarvislabs.net
+2025-08-25 21:18:05,703 - INFO - Input directory contents: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 21:18:05,703 - INFO - Masks directory contents: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-25 21:18:05,703 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-25 21:18:05,703 - INFO - Starting to process images...
+2025-08-25 21:18:05,703 - INFO - Attempting to upload background image to ComfyUI server: https://153f213342941.notebooks.jarvislabs.net
+2025-08-25 21:18:06,099 - INFO - Uploaded WhiteBackground_Template.png as WhiteBackground_Template_20250825_211805_89da6010.png (Content-Type: image/png)
+2025-08-25 21:18:06,103 - INFO - Found 1 unique style images referenced in prompts.json
+2025-08-25 21:18:06,103 - INFO - Required style images: Urban street
+2025-08-25 21:18:06,105 - INFO - Found matching files for all 1 required style images
+2025-08-25 21:18:06,105 - INFO - Uploading required style image: Urban street.jpg -> Urban street
+2025-08-25 21:18:06,697 - INFO - Uploaded Urban street.jpg as Urban street_20250825_211806_2af4960f.jpg (Content-Type: image/jpeg)
+2025-08-25 21:18:06,699 - INFO - Successfully uploaded style image for 'Urban street'
+2025-08-25 21:18:06,700 - INFO - Successfully uploaded all 1 required style images
+2025-08-25 21:18:06,700 - INFO - Processing product ID: 6292393310444
+2025-08-25 21:18:06,700 - INFO - Processing product 6292393310444 (1/1) - Progress: 100%
+2025-08-25 21:18:06,700 - INFO - Looking for style image: Urban street
+2025-08-25 21:18:06,700 - INFO - No product folder found for 6292393310444, falling back to root-level files
+2025-08-25 21:18:06,700 - INFO - Using flat structure - input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/input_images, mask dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/masks
+2025-08-25 21:18:06,700 - INFO - Found input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/input_images
+2025-08-25 21:18:06,700 - INFO - Found mask dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/masks
+2025-08-25 21:18:06,700 - INFO - Created output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/output/6292393310444
+2025-08-25 21:18:06,701 - INFO - Available images for product 6292393310444: ['6292393310444_0002.jpg']
+2025-08-25 21:18:06,701 - INFO - Found mask: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp913m1vgh/masks/6292393310444_0002.jpg
+2025-08-25 21:18:07,247 - INFO - Uploaded 6292393310444_0002.jpg as 6292393310444_0002_20250825_211806_78b88e91.jpg (Content-Type: image/jpeg)
+2025-08-25 21:18:07,476 - INFO - Uploaded 6292393310444_0002.jpg as 6292393310444_0002_20250825_211807_c4318362.jpg (Content-Type: image/jpeg)
+2025-08-25 21:18:07,479 - INFO - === ORIGINAL WORKFLOW DEBUG ===
+2025-08-25 21:18:07,479 - INFO - Original workflow has 87 nodes
+2025-08-25 21:18:07,479 - INFO - Original node 454 inputs: {'image': 'backpos (1)_variant_1.png', 'resize': False, 'width': 512, 'height': 512, 'repeat': 1, 'keep_proportion': False, 'divisible_by': 2, 'mask_channel': 'alpha', 'background_color': ''}
+2025-08-25 21:18:07,479 - INFO - Original node 439 inputs: {'image': 'closeup (1) (2).png'}
+2025-08-25 21:18:07,479 - INFO - Original node 256 inputs: {'image': 'White Background_Template.png'}
+2025-08-25 21:18:07,479 - INFO - Original node 110 inputs: {'image': 'Hotel Lobby.jpg'}
+2025-08-25 21:18:07,479 - INFO - Original node 448 inputs: {'string': 'Generate a scene of a young European female model (23 years old) with a white skin tone, light brown hair,with ((perfectly drawn hands 1.4)),, Wearing a black fitted top, paired with a black asymmetric skirt with sheer panel detailing, and completed with no visible footwear.,  ((standing confidently in a relaxed pose in a modern, bright hotel lobby, one hand resting on her hip and the other holding a small handbag, with a composed expression 1.3)), ((bright and spacious hotel lobby with light wood paneling, polished floors, modern lighting, and contemporary furniture with minimalist décor, creating a fresh and welcoming atmosphere 1.3)), in a clean style, detailed, ((professional apparel photography 1.4)). Camera Used: Sony Alpha, Camera Angle: full-body shot, straight-on, Lighting: bright, neutral hotel lighting that illuminates the model and dress perfectly, Contrast Color, ultra photorealistic, highlighting textures and details, depth of field, crisp focus, HD quality.'}
+2025-08-25 21:18:07,480 - INFO - Updated input image (454) with: 6292393310444_0002_20250825_211806_78b88e91.jpg
+2025-08-25 21:18:07,480 - INFO - Updated mask image (439) with: 6292393310444_0002_20250825_211807_c4318362.jpg
+2025-08-25 21:18:07,480 - INFO - Updated background image (256) with: WhiteBackground_Template_20250825_211805_89da6010.png
+2025-08-25 21:18:07,480 - INFO - Updated style image (110) with: Urban street_20250825_211806_2af4960f.jpg
+2025-08-25 21:18:07,480 - INFO - Updated prompt text in node 448: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscu...
+2025-08-25 21:18:07,481 - INFO - === UPDATED WORKFLOW DEBUG ===
+2025-08-25 21:18:07,481 - INFO - Updated workflow has 87 nodes
+2025-08-25 21:18:07,481 - INFO - Updated node 454 inputs: {'image': '6292393310444_0002_20250825_211806_78b88e91.jpg', 'resize': False, 'width': 512, 'height': 512, 'repeat': 1, 'keep_proportion': False, 'divisible_by': 2, 'mask_channel': 'alpha', 'background_color': ''}
+2025-08-25 21:18:07,481 - INFO - Updated node 439 inputs: {'image': '6292393310444_0002_20250825_211807_c4318362.jpg'}
+2025-08-25 21:18:07,481 - INFO - Updated node 256 inputs: {'image': 'WhiteBackground_Template_20250825_211805_89da6010.png'}
+2025-08-25 21:18:07,481 - INFO - Updated node 110 inputs: {'image': 'Urban street_20250825_211806_2af4960f.jpg'}
+2025-08-25 21:18:07,481 - INFO - Updated node 448 inputs: {'string': 'Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black oversized t-shirt featuring a vibrant graphic print of Rick Sanchez on the back, paired with black relaxed-fit shorts.  ((walking confidently on a city sidewalk)), ((modern urban street setting with textured walls, light stone pavement, and subtle background elements like a bicycle and warm sunlight 1.3)), in a clean style, detailed, ((professional apparel photography 1.4)). Camera Used: Sony Alpha, Camera Angle: half-body pose, Lighting: soft natural daylight with gentle contrast, ultra photorealistic, highlighting textures and details, crisp focus, HD quality.'}
+2025-08-25 21:18:07,481 - INFO - Submitting workflow to: https://153f213342941.notebooks.jarvislabs.net/prompt
+2025-08-25 21:18:07,481 - INFO - Workflow has 87 nodes
+2025-08-25 21:18:07,481 - INFO - Key nodes present: ['454', '439', '256', '110', '448']
+2025-08-25 21:18:07,482 - INFO - === WORKFLOW SUBMISSION DEBUG ===
+2025-08-25 21:18:07,482 - INFO - Image file: 6292393310444_0002.jpg
+2025-08-25 21:18:07,482 - INFO - Input node 454: 6292393310444_0002_20250825_211806_78b88e91.jpg
+2025-08-25 21:18:07,482 - INFO - Mask node 439: 6292393310444_0002_20250825_211807_c4318362.jpg
+2025-08-25 21:18:07,482 - INFO - Background node 256: WhiteBackground_Template_20250825_211805_89da6010.png
+2025-08-25 21:18:07,482 - INFO - Style node 110: Urban street_20250825_211806_2af4960f.jpg
+2025-08-25 21:18:07,482 - INFO - Prompt node 448: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black oversized t-shirt featurin...
+2025-08-25 21:18:07,483 - INFO - Request payload size: 16557 characters
+2025-08-25 21:18:07,484 - INFO - Request payload keys: ['prompt']
+2025-08-25 21:18:07,602 - INFO - === COMFYUI RESPONSE DEBUG ===
+2025-08-25 21:18:07,603 - INFO - Response status code: 200
+2025-08-25 21:18:07,603 - INFO - Response headers: {'Date': 'Mon, 25 Aug 2025 15:48:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Vary': 'Accept-Encoding', 'Content-Encoding': 'gzip', 'Cf-Cache-Status': 'DYNAMIC', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8kZ7fzThblzDQdTB3a45HLV8W1zVE8XMH2E9s3NGmSyBs0P8wycY%2BsfJtRTcn5kT3kVkyYo%2FJyEywL%2BohiWN1%2B1y0sCT3fnbsdTjQMx47iMsMWv%2FQ25Xw2ffIh7nlX80%2FpI7PTc%3D"}]}', 'CF-RAY': '974c3b5b5f9558c9-MAA'}
+2025-08-25 21:18:07,603 - INFO - Response content: {"prompt_id": "c34eb750-0055-4e5e-908c-74538b02257f", "number": 3, "node_errors": {"29": {"errors": [{"type": "value_not_in_list", "message": "Value not in list", "details": "control_net_name: 'SDXL/controlnet-union-sdxl-1.0/diffusion_pytorch_model_promax.safetensors' not in (list of length 23)", "extra_info": {"input_name": "control_net_name", "input_config": null, "received_value": "SDXL/controlnet-union-sdxl-1.0/diffusion_pytorch_model_promax.safetensors"}}], "dependent_outputs": ["211", "15"], "class_type": "ControlNetLoader"}}}...
+2025-08-25 21:18:07,603 - INFO - Queued prompt c34eb750-0055-4e5e-908c-74538b02257f for 6292393310444_0002.jpg
+2025-08-25 21:18:07,603 - INFO - [PROMPT SEND CHECK] Node 448 content: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscular body, brown hair, with ((perfectly drawn hands 1.4)), Wearing a black oversized t-shirt featurin...
+2025-08-25 21:18:07,764 - INFO - Processing... attempt 1/100
+2025-08-25 21:18:12,917 - INFO - Processing... attempt 2/100
+2025-08-25 21:18:18,067 - INFO - Processing... attempt 3/100
+2025-08-25 21:18:23,265 - INFO - Processing... attempt 4/100
+2025-08-25 21:18:28,528 - INFO - Processing... attempt 5/100
+2025-08-25 21:18:33,694 - INFO - Processing... attempt 6/100
+2025-08-25 21:18:40,178 - INFO - Processing... attempt 7/100
+2025-08-25 21:18:45,413 - INFO - Processing... attempt 8/100
+2025-08-25 21:18:50,635 - INFO - Processing... attempt 9/100
+2025-08-25 21:18:55,810 - INFO - Processing... attempt 10/100
+2025-08-25 21:19:01,093 - INFO - Processing... attempt 11/100
+2025-08-25 21:19:06,354 - INFO - Processing... attempt 12/100
+2025-08-25 21:19:11,607 - INFO - Processing... attempt 13/100
+2025-08-25 21:19:16,842 - INFO - Processing... attempt 14/100
+2025-08-25 21:19:22,066 - INFO - Processing... attempt 15/100
+2025-08-25 21:19:27,273 - INFO - Processing... attempt 16/100
+2025-08-25 21:19:32,530 - INFO - Processing... attempt 17/100
+2025-08-25 21:19:37,786 - INFO - Processing... attempt 18/100
+2025-08-25 21:19:43,262 - INFO - Processing... attempt 19/100
+2025-08-25 21:19:48,379 - INFO - Processing... attempt 20/100
+2025-08-25 21:19:53,554 - INFO - Processing... attempt 21/100
+2025-08-25 21:19:58,733 - INFO - Processing... attempt 22/100
+2025-08-25 21:20:04,008 - INFO - Processing... attempt 23/100
+2025-08-25 21:20:09,242 - INFO - Processing... attempt 24/100
+2025-08-25 21:20:14,463 - INFO - Processing... attempt 25/100
+2025-08-25 21:20:19,713 - INFO - Processing... attempt 26/100
+2025-08-25 21:20:25,010 - INFO - Processing... attempt 27/100
+2025-08-25 21:20:30,184 - INFO - Processing... attempt 28/100
+2025-08-25 21:20:35,408 - INFO - Processing... attempt 29/100
+2025-08-25 21:20:40,642 - INFO - Processing... attempt 30/100
+2025-08-25 21:20:45,822 - INFO - Processing... attempt 31/100
+2025-08-25 21:20:51,206 - INFO - Processing... attempt 32/100
+2025-08-25 21:20:56,397 - INFO - Processing... attempt 33/100
+2025-08-25 21:21:01,620 - INFO - Processing... attempt 34/100
+2025-08-25 21:21:06,838 - INFO - Processing... attempt 35/100
+2025-08-25 21:21:12,031 - INFO - Processing... attempt 36/100
+2025-08-25 21:21:17,277 - INFO - Processing... attempt 37/100
+2025-08-25 21:21:22,419 - INFO - Processing... attempt 38/100
+2025-08-25 21:21:27,514 - INFO - Processing... attempt 39/100
+2025-08-25 21:21:32,641 - INFO - Processing... attempt 40/100
+2025-08-25 21:21:37,839 - INFO - Processing... attempt 41/100
+2025-08-25 21:21:43,077 - INFO - Processing... attempt 42/100
+2025-08-25 21:21:48,353 - INFO - Processing... attempt 43/100
+2025-08-25 21:21:53,546 - INFO - Processing... attempt 44/100
+2025-08-25 21:21:58,790 - INFO - Processing... attempt 45/100
+2025-08-25 21:22:04,003 - INFO - Processing... attempt 46/100
+2025-08-25 21:22:09,260 - INFO - Processing... attempt 47/100
+2025-08-25 21:22:14,481 - INFO - Processing... attempt 48/100
+2025-08-25 21:22:19,674 - INFO - Processing... attempt 49/100
+2025-08-25 21:22:24,915 - INFO - Processing... attempt 50/100
+2025-08-25 21:22:30,056 - INFO - Processing... attempt 51/100
+2025-08-25 21:22:35,314 - INFO - Processing... attempt 52/100
+2025-08-25 21:22:40,455 - INFO - Processing... attempt 53/100
+2025-08-25 21:22:45,625 - INFO - Processing... attempt 54/100
+2025-08-25 21:22:50,793 - INFO - Processing... attempt 55/100
+2025-08-25 21:22:55,933 - INFO - Processing... attempt 56/100
+2025-08-25 21:23:01,229 - INFO - Processing... attempt 57/100
+2025-08-25 21:23:06,444 - INFO - Processing... attempt 58/100
+2025-08-25 21:23:11,726 - INFO - Processing... attempt 59/100
+2025-08-25 21:23:16,923 - INFO - Processing... attempt 60/100
+2025-08-25 21:23:22,196 - INFO - Processing... attempt 61/100
+2025-08-25 21:23:27,455 - INFO - Processing... attempt 62/100
+2025-08-25 21:23:32,644 - INFO - Processing... attempt 63/100
+2025-08-25 21:23:37,854 - INFO - Processing... attempt 64/100
+2025-08-25 21:23:43,043 - INFO - Processing... attempt 65/100
+2025-08-25 21:23:48,274 - INFO - Processing... attempt 66/100
+2025-08-25 21:23:53,520 - INFO - Processing... attempt 67/100
+2025-08-25 21:23:58,637 - INFO - Processing... attempt 68/100
+2025-08-25 21:24:03,905 - INFO - Processing... attempt 69/100
+2025-08-25 21:24:09,093 - INFO - Processing... attempt 70/100
+2025-08-25 21:24:14,280 - INFO - Processing... attempt 71/100
+2025-08-25 21:24:19,386 - INFO - Processing... attempt 72/100
+2025-08-25 21:24:24,628 - INFO - Processing... attempt 73/100
+2025-08-25 21:24:29,817 - INFO - Processing... attempt 74/100
+2025-08-25 21:24:35,044 - INFO - Processing... attempt 75/100
+2025-08-25 21:24:40,309 - INFO - Processing... attempt 76/100
+2025-08-25 21:24:45,509 - INFO - Processing... attempt 77/100
+2025-08-25 21:24:50,742 - INFO - Processing... attempt 78/100
+2025-08-25 21:24:55,955 - INFO - Processing... attempt 79/100
+2025-08-25 21:25:01,155 - INFO - Processing... attempt 80/100
+2025-08-25 21:25:06,396 - INFO - Processing... attempt 81/100
+2025-08-25 21:25:11,548 - INFO - Processing... attempt 82/100
+2025-08-25 21:25:16,673 - INFO - Processing... attempt 83/100
+2025-08-25 21:25:21,790 - INFO - Processing... attempt 84/100
+2025-08-25 21:25:26,975 - INFO - Processing... attempt 85/100
+2025-08-25 21:25:32,165 - INFO - Processing... attempt 86/100
+2025-08-25 21:25:37,437 - INFO - Processing... attempt 87/100
+2025-08-25 21:25:42,695 - INFO - Processing... attempt 88/100
+2025-08-25 21:25:47,901 - INFO - Processing... attempt 89/100
+2025-08-25 21:25:53,172 - INFO - Processing... attempt 90/100
+2025-08-25 21:25:58,470 - INFO - Processing... attempt 91/100
+2025-08-25 21:26:03,671 - INFO - Processing... attempt 92/100
+2025-08-25 21:26:08,880 - INFO - Processing... attempt 93/100
+2025-08-25 21:26:14,138 - INFO - Processing... attempt 94/100
+2025-08-25 21:26:19,363 - INFO - Processing... attempt 95/100
+2025-08-25 21:26:24,615 - INFO - Processing... attempt 96/100
+2025-08-25 21:26:29,849 - ERROR - Timeout after 502.2 seconds
+2025-08-25 21:26:29,850 - ERROR - Failed to process 6292393310444_0002.jpg
+2025-08-25 21:26:30,851 - INFO - Processing completed successfully!
+2025-08-25 21:26:30,851 - INFO - Total products processed: 1
+2025-08-25 21:26:30,851 - INFO - Successful images: 0
+2025-08-25 21:26:30,851 - INFO - Failed images: 1
+2025-08-25 21:26:30,851 - ERROR - Fatal error during processing: No images were successfully processed
+2025-08-25 21:26:30,853 - ERROR - Image processing failed: No images were successfully processed
+2025-08-25 21:26:30,861 - INFO - Temporary directory cleaned up
+2025-08-25 21:26:30,862 - ERROR - Unexpected error in process_images endpoint: 
+2025-08-25 21:26:30,862 - ERROR - Error type: HTTPException
+2025-08-25 21:26:30,896 - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 837, in process_images
+    process_images_api(
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 712, in process_images_api
+    raise Exception("No images were successfully processed")
+Exception: No images were successfully processed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/Final Workflow n8n Working/api.py", line 849, in process_images
+    raise HTTPException(status_code=500, detail=f"Image processing failed: {str(e)}")
+fastapi.exceptions.HTTPException
+

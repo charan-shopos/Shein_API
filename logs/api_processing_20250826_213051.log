@@ -1,0 +1,287 @@
+2025-08-26 21:32:06,841 - INFO - === Starting image processing request ===
+2025-08-26 21:32:06,842 - INFO - Processing ZIP file: input.zip
+2025-08-26 21:32:07,011 - INFO - Processing images from /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpd_6s_j69/input to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpd_6s_j69/output
+2025-08-26 21:32:07,011 - INFO - Found 2 image files to process
+2025-08-26 21:32:07,132 - INFO - Processed: 6292393310444_0001.jpg -> closeup(1).jpg (renamed)
+2025-08-26 21:32:07,214 - INFO - Processed: 6292393310444_0002.jpg -> 6292393310444_0002.jpg (kept)
+2025-08-26 21:32:07,214 - INFO - Processing completed: 2 processed, 1 renamed, 1 skipped, 0 errors
+2025-08-26 21:32:07,215 - INFO - Manifest file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpd_6s_j69/output/manifest.json
+2025-08-26 21:32:07,413 - INFO - ZIP created with 3 files
+2025-08-26 21:32:07,417 - INFO - MediaPipe face detection cleaned up
+2025-08-26 21:32:10,823 - INFO - Temporary directory cleaned up: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpd_6s_j69
+2025-08-26 21:32:32,404 - INFO - Mask request received for file: input.zip
+2025-08-26 21:32:32,405 - INFO - Using ComfyUI URL: https://153f213342941.notebooks.jarvislabs.net/
+2025-08-26 21:32:32,405 - INFO - Reading uploaded file...
+2025-08-26 21:32:32,408 - INFO - File read: input.zip (9553135 bytes)
+2025-08-26 21:32:32,410 - INFO - Loading workflow from: Mask n8n Working/JSON.json
+2025-08-26 21:32:32,411 - INFO - Workflow JSON loaded successfully
+2025-08-26 21:32:32,411 - INFO - File 'input.zip' detected as ZIP
+2025-08-26 21:32:32,411 - INFO - Processing ZIP file with multiple images...
+2025-08-26 21:32:32,412 - INFO - Extracting images from ZIP file...
+2025-08-26 21:32:32,420 - INFO - ZIP contains 2 total files
+2025-08-26 21:32:32,431 - INFO - Extracted image 1/2: 6292393310444_0002.jpg (4042355 bytes)
+2025-08-26 21:32:32,441 - INFO - Extracted image 2/2: closeup(1).jpg (5510534 bytes)
+2025-08-26 21:32:32,442 - INFO - Successfully extracted 2 images from ZIP
+2025-08-26 21:32:32,443 - INFO - Processing image 1/2: 6292393310444_0002.jpg
+2025-08-26 21:32:32,444 - INFO - Processing single image: 6292393310444_0002.jpg
+2025-08-26 21:32:32,444 - INFO - Uploading image '6292393310444_0002.jpg' to ComfyUI as '1756224152444_6292393310444_0002.jpg'
+2025-08-26 21:32:33,166 - INFO - Successfully uploaded '1756224152444_6292393310444_0002.jpg' to ComfyUI
+2025-08-26 21:32:33,174 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 21:32:33,283 - INFO - Prompt queued successfully with ID: 8af348e1-8fac-45af-805f-1f9d6f74dc30
+2025-08-26 21:32:33,284 - INFO - Polling for results from prompt 8af348e1-8fac-45af-805f-1f9d6f74dc30...
+2025-08-26 21:32:53,953 - INFO - Results received after 20.7s and 5 polls
+2025-08-26 21:32:53,957 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 21:32:53,958 - INFO - Found output image: ComfyUI_temp_sgprk_00021_.png in 
+2025-08-26 21:32:54,236 - INFO - Successfully fetched image (130217 bytes)
+2025-08-26 21:32:54,239 - INFO - Completed processing '6292393310444_0002.jpg' in 21.8s
+2025-08-26 21:32:54,239 - INFO - Successfully processed image 1/2: 6292393310444_0002.jpg
+2025-08-26 21:32:54,239 - INFO - Processing image 2/2: closeup(1).jpg
+2025-08-26 21:32:54,240 - INFO - Processing single image: closeup(1).jpg
+2025-08-26 21:32:54,240 - INFO - Uploading image 'closeup(1).jpg' to ComfyUI as '1756224174240_closeup(1).jpg'
+2025-08-26 21:33:06,030 - INFO - Successfully uploaded '1756224174240_closeup(1).jpg' to ComfyUI
+2025-08-26 21:33:06,035 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 21:33:06,573 - INFO - Prompt queued successfully with ID: b70133ca-ca53-4823-92de-a5a764dc7c33
+2025-08-26 21:33:06,577 - INFO - Polling for results from prompt b70133ca-ca53-4823-92de-a5a764dc7c33...
+2025-08-26 21:33:22,131 - INFO - Results received after 15.6s and 4 polls
+2025-08-26 21:33:22,134 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 21:33:22,135 - INFO - Found output image: ComfyUI_temp_sgprk_00022_.png in 
+2025-08-26 21:33:22,354 - INFO - Successfully fetched image (125543 bytes)
+2025-08-26 21:33:22,358 - INFO - Completed processing 'closeup(1).jpg' in 28.1s
+2025-08-26 21:33:22,359 - INFO - Successfully processed image 2/2: closeup(1).jpg
+2025-08-26 21:33:22,359 - INFO - ZIP processing completed: 2/2 images successful
+2025-08-26 21:33:22,359 - INFO - Creating ZIP response with 2 processed images...
+2025-08-26 21:33:22,381 - INFO - ZIP response created: 176215 bytes
+2025-08-26 21:33:22,384 - INFO - Processing completed in 50.0s
+2025-08-26 21:33:32,112 - INFO - Request unknown: Processing images from file: input.zip
+2025-08-26 21:33:32,118 - INFO - Request unknown: File size: 9553494 bytes, Content-Type: application/zip
+2025-08-26 21:33:32,119 - DEBUG - Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp1i1vg3t4
+2025-08-26 21:33:32,119 - DEBUG - Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp1i1vg3t4/uploaded.zip
+2025-08-26 21:33:32,139 - INFO - Request unknown: File saved successfully, starting processing
+2025-08-26 21:33:32,140 - INFO - Processing ZIP file: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp1i1vg3t4/uploaded.zip
+2025-08-26 21:33:32,150 - INFO - ZIP extracted to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp1i1vg3t4/extracted
+2025-08-26 21:33:32,154 - INFO - Prompt library loaded: 111 prompts
+2025-08-26 21:33:32,155 - INFO - Selecting images from base folder: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp1i1vg3t4/extracted
+2025-08-26 21:33:32,155 - INFO - Base folder exists: True
+2025-08-26 21:33:32,156 - INFO - Base folder is directory: True
+2025-08-26 21:33:32,157 - INFO - Detected flat structure - creating virtual folders
+2025-08-26 21:33:32,157 - INFO - Found 2 images in flat structure
+2025-08-26 21:33:32,157 - INFO - Created folder group_6292393310444: 2 images (0 model images)
+2025-08-26 21:33:32,157 - INFO - Total folders processed: 1
+2025-08-26 21:33:32,157 - INFO - Processing folder: group_6292393310444 with 2 images
+2025-08-26 21:33:32,157 - INFO - Detecting gender from image: 6292393310444_0001.jpg
+2025-08-26 21:33:34,031 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:33:34,040 - INFO - Gender detected: Men
+2025-08-26 21:33:34,041 - INFO - Generating comprehensive description for folder with 2 images
+2025-08-26 21:33:37,114 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:33:37,116 - INFO - Description generated for group_6292393310444: Wearing a black oversized t-shirt with a colorful graphic print of a character on the back, paired w...
+2025-08-26 21:33:37,117 - INFO - Successfully processed folder: group_6292393310444
+2025-08-26 21:33:37,117 - INFO - Zip file processing completed. 1 folders processed
+2025-08-26 21:33:37,117 - INFO - Request unknown: Processing completed in 4.978s
+2025-08-26 21:33:37,118 - DEBUG - Request unknown: Cleaned up temporary zip file
+2025-08-26 21:33:37,119 - INFO - Request unknown: Successfully processed 1 folders
+2025-08-26 21:33:43,814 - INFO - === REQUEST PROCESSING START ===
+2025-08-26 21:33:43,817 - INFO - Created temporary directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429
+2025-08-26 21:33:43,817 - INFO - Extracting uploaded ZIP files...
+2025-08-26 21:33:43,818 - INFO - === ZIP EXTRACTION START ===
+2025-08-26 21:33:43,818 - INFO - Filename: input.zip
+2025-08-26 21:33:43,863 - INFO - Extracted 2 files:
+2025-08-26 21:33:43,863 - INFO -   - 6292393310444_0002.jpg
+2025-08-26 21:33:43,863 - INFO -   - closeup(1).jpg
+2025-08-26 21:33:43,866 - INFO - === ZIP EXTRACTION COMPLETED ===
+2025-08-26 21:33:43,866 - INFO - === ZIP EXTRACTION START ===
+2025-08-26 21:33:43,866 - INFO - Filename: input_processed.zip
+2025-08-26 21:33:43,869 - INFO - Extracted 2 files:
+2025-08-26 21:33:43,869 - INFO -   - 6292393310444_0002.jpg
+2025-08-26 21:33:43,869 - INFO -   - closeup(1).jpg
+2025-08-26 21:33:43,870 - INFO - === ZIP EXTRACTION COMPLETED ===
+2025-08-26 21:33:43,870 - INFO - Loaded prompts JSON with 1 entries
+2025-08-26 21:33:43,870 - INFO - Converted list format to dict format: 1 entries
+2025-08-26 21:33:43,871 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-26 21:33:43,871 - INFO - Starting to process images...
+2025-08-26 21:33:43,871 - INFO - Attempting to upload background image to ComfyUI server: https://153f213342941.notebooks.jarvislabs.net
+2025-08-26 21:33:44,150 - INFO - Successfully uploaded Final Workflow n8n Working/WhiteBackground_Template.png as WhiteBackground_Template_1756224223872.png
+2025-08-26 21:33:44,154 - INFO - Found 1 unique style images referenced in prompts.json
+2025-08-26 21:33:44,156 - INFO - Found 82 style files in Final Workflow n8n Working/style_images2
+2025-08-26 21:33:44,157 - INFO - Matched style 'Rustic mustard-yellow wall' to file: Rustic mustard-yellow wall_women.jpg
+2025-08-26 21:33:44,158 - INFO - Found matching files for all 1 required style images
+2025-08-26 21:33:44,158 - INFO - Uploading required style image: Rustic mustard-yellow wall_women.jpg -> Rustic mustard-yellow wall
+2025-08-26 21:33:46,638 - INFO - Successfully uploaded Final Workflow n8n Working/style_images2/Rustic mustard-yellow wall_women.jpg as Rustic mustard-yellow wall_women_1756224224159.jpg
+2025-08-26 21:33:46,642 - INFO - Successfully uploaded style image for 'Rustic mustard-yellow wall'
+2025-08-26 21:33:46,642 - INFO - Successfully uploaded all 1 required style images
+2025-08-26 21:33:46,642 - INFO - Starting image processing - processing all images with matching masks
+2025-08-26 21:33:46,643 - INFO - Found 2 images in input_images directory: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-26 21:33:46,643 - INFO - Found 2 masks in masks directory: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-26 21:33:46,643 - INFO - Found matching pair: 6292393310444_0002.jpg -> 6292393310444_0002.jpg
+2025-08-26 21:33:46,643 - INFO - Found matching pair: closeup(1).jpg -> closeup(1).jpg
+2025-08-26 21:33:46,643 - INFO - Found 2 matching image-mask pairs to process
+2025-08-26 21:33:46,644 - INFO - Using default prompt: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscu...
+2025-08-26 21:33:46,644 - INFO - Using default style: Rustic mustard-yellow wall
+2025-08-26 21:33:46,644 - INFO - Using style image: Rustic mustard-yellow wall_women_1756224224159.jpg
+2025-08-26 21:33:46,644 - INFO - Created output directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/output/processed_images
+2025-08-26 21:33:46,646 - INFO - Processing pair 1/2: 6292393310444_0002.jpg + 6292393310444_0002.jpg
+2025-08-26 21:33:49,503 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/input_images/6292393310444_0002.jpg as 6292393310444_0002_1756224226646.jpg
+2025-08-26 21:33:49,855 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/masks/6292393310444_0002.jpg as 6292393310444_0002_1756224229508.jpg
+2025-08-26 21:33:49,865 - INFO - Updated input image node 454 with: 6292393310444_0002_1756224226646.jpg
+2025-08-26 21:33:49,865 - INFO - Updated mask image node 439 with: 6292393310444_0002_1756224229508.jpg
+2025-08-26 21:33:49,865 - INFO - Updated background image node 256 with: WhiteBackground_Template_1756224223872.png
+2025-08-26 21:33:49,865 - INFO - Updated style image node 110 with: Rustic mustard-yellow wall_women_1756224224159.jpg
+2025-08-26 21:33:49,865 - INFO - Updated prompt text node 448 with: Generate a scene of a young European male model (2...
+2025-08-26 21:33:49,865 - INFO - Submitting workflow to: https://153f213342941.notebooks.jarvislabs.net/prompt
+2025-08-26 21:33:49,865 - INFO - Workflow has 87 nodes
+2025-08-26 21:33:50,427 - INFO - Successfully submitted workflow, got prompt ID: 493e8237-8fa3-421d-b5c0-bb5ab8c8541f
+2025-08-26 21:33:50,430 - INFO - Waiting for ComfyUI to complete prompt: 493e8237-8fa3-421d-b5c0-bb5ab8c8541f
+2025-08-26 21:39:49,949 - INFO - ComfyUI completed prompt: 493e8237-8fa3-421d-b5c0-bb5ab8c8541f
+2025-08-26 21:39:50,648 - INFO - Downloaded processed image: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/output/processed_images/processed_6292393310444_0002.jpg
+2025-08-26 21:39:50,653 - INFO - Successfully processed: 6292393310444_0002.jpg
+2025-08-26 21:39:50,653 - INFO - Processing pair 2/2: closeup(1).jpg + closeup(1).jpg
+2025-08-26 21:39:51,176 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/input_images/closeup(1).jpg as closeup(1)_1756224590653.jpg
+2025-08-26 21:39:51,447 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/masks/closeup(1).jpg as closeup(1)_1756224591181.jpg
+2025-08-26 21:39:51,454 - INFO - Updated input image node 454 with: closeup(1)_1756224590653.jpg
+2025-08-26 21:39:51,454 - INFO - Updated mask image node 439 with: closeup(1)_1756224591181.jpg
+2025-08-26 21:39:51,455 - INFO - Updated background image node 256 with: WhiteBackground_Template_1756224223872.png
+2025-08-26 21:39:51,455 - INFO - Updated style image node 110 with: Rustic mustard-yellow wall_women_1756224224159.jpg
+2025-08-26 21:39:51,455 - INFO - Updated prompt text node 448 with: Generate a scene of a young European male model (2...
+2025-08-26 21:39:51,455 - INFO - Submitting workflow to: https://153f213342941.notebooks.jarvislabs.net/prompt
+2025-08-26 21:39:51,455 - INFO - Workflow has 87 nodes
+2025-08-26 21:39:51,637 - INFO - Successfully submitted workflow, got prompt ID: 4e67b57f-7dbe-4b6f-b7b2-cf137eeb34e9
+2025-08-26 21:39:51,641 - INFO - Waiting for ComfyUI to complete prompt: 4e67b57f-7dbe-4b6f-b7b2-cf137eeb34e9
+2025-08-26 21:40:55,805 - INFO - ComfyUI completed prompt: 4e67b57f-7dbe-4b6f-b7b2-cf137eeb34e9
+2025-08-26 21:40:56,326 - INFO - Downloaded processed image: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/output/processed_images/processed_closeup(1).jpg
+2025-08-26 21:40:56,332 - INFO - Successfully processed: closeup(1).jpg
+2025-08-26 21:40:56,332 - INFO - Processing completed: 2 successful, 0 failed
+2025-08-26 21:40:56,333 - INFO - Image processing completed successfully
+2025-08-26 21:40:56,333 - INFO - Creating final ZIP file...
+2025-08-26 21:40:56,334 - INFO - Found 2 processed images: ['processed_6292393310444_0002.jpg', 'processed_closeup(1).jpg']
+2025-08-26 21:40:56,342 - INFO - Added to ZIP: processed_images/processed_6292393310444_0002.jpg
+2025-08-26 21:40:56,345 - INFO - Added to ZIP: processed_images/processed_closeup(1).jpg
+2025-08-26 21:40:56,346 - INFO - ZIP file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpoau99429/processed_images_1756224656.zip
+2025-08-26 21:40:56,346 - INFO - ZIP file size: 2911198 bytes
+2025-08-26 21:40:56,347 - INFO - === REQUEST PROCESSING COMPLETED SUCCESSFULLY ===
+2025-08-26 21:40:56,353 - INFO - Temporary directory cleaned up
+2025-08-26 21:46:34,997 - INFO - === Starting image processing request ===
+2025-08-26 21:46:35,000 - INFO - Processing ZIP file: input.zip
+2025-08-26 21:46:35,118 - INFO - Processing images from /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpsx_1eio9/input to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpsx_1eio9/output
+2025-08-26 21:46:35,120 - INFO - Found 2 image files to process
+2025-08-26 21:46:35,257 - INFO - Processed: 6292393310444_0001.jpg -> closeup(1).jpg (renamed)
+2025-08-26 21:46:35,343 - INFO - Processed: 6292393310444_0002.jpg -> 6292393310444_0002.jpg (kept)
+2025-08-26 21:46:35,343 - INFO - Processing completed: 2 processed, 1 renamed, 1 skipped, 0 errors
+2025-08-26 21:46:35,352 - INFO - Manifest file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpsx_1eio9/output/manifest.json
+2025-08-26 21:46:35,573 - INFO - ZIP created with 3 files
+2025-08-26 21:46:35,579 - INFO - MediaPipe face detection cleaned up
+2025-08-26 21:46:38,975 - INFO - Temporary directory cleaned up: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpsx_1eio9
+2025-08-26 21:46:55,225 - INFO - Mask request received for file: input.zip
+2025-08-26 21:46:55,226 - INFO - Using ComfyUI URL: https://153f213342941.notebooks.jarvislabs.net/
+2025-08-26 21:46:55,226 - INFO - Reading uploaded file...
+2025-08-26 21:46:55,230 - INFO - File read: input.zip (9553135 bytes)
+2025-08-26 21:46:55,231 - INFO - Loading workflow from: Mask n8n Working/JSON.json
+2025-08-26 21:46:55,246 - INFO - Workflow JSON loaded successfully
+2025-08-26 21:46:55,247 - INFO - File 'input.zip' detected as ZIP
+2025-08-26 21:46:55,247 - INFO - Processing ZIP file with multiple images...
+2025-08-26 21:46:55,247 - INFO - Extracting images from ZIP file...
+2025-08-26 21:46:55,249 - INFO - ZIP contains 2 total files
+2025-08-26 21:46:55,252 - INFO - Extracted image 1/2: 6292393310444_0002.jpg (4042355 bytes)
+2025-08-26 21:46:55,256 - INFO - Extracted image 2/2: closeup(1).jpg (5510534 bytes)
+2025-08-26 21:46:55,256 - INFO - Successfully extracted 2 images from ZIP
+2025-08-26 21:46:55,256 - INFO - Processing image 1/2: 6292393310444_0002.jpg
+2025-08-26 21:46:55,257 - INFO - Processing single image: 6292393310444_0002.jpg
+2025-08-26 21:46:55,257 - INFO - Uploading image '6292393310444_0002.jpg' to ComfyUI as '1756225015257_6292393310444_0002.jpg'
+2025-08-26 21:46:55,658 - INFO - Successfully uploaded '1756225015257_6292393310444_0002.jpg' to ComfyUI
+2025-08-26 21:46:55,662 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 21:46:55,766 - INFO - Prompt queued successfully with ID: 8d5b0b1a-ae1a-4262-a5ac-d52867e7b139
+2025-08-26 21:46:55,770 - INFO - Polling for results from prompt 8d5b0b1a-ae1a-4262-a5ac-d52867e7b139...
+2025-08-26 21:47:11,413 - INFO - Results received after 15.6s and 4 polls
+2025-08-26 21:47:11,417 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 21:47:11,417 - INFO - Found output image: ComfyUI_temp_bpthf_00001_.png in 
+2025-08-26 21:47:11,631 - INFO - Successfully fetched image (130217 bytes)
+2025-08-26 21:47:11,635 - INFO - Completed processing '6292393310444_0002.jpg' in 16.4s
+2025-08-26 21:47:11,635 - INFO - Successfully processed image 1/2: 6292393310444_0002.jpg
+2025-08-26 21:47:11,635 - INFO - Processing image 2/2: closeup(1).jpg
+2025-08-26 21:47:11,636 - INFO - Processing single image: closeup(1).jpg
+2025-08-26 21:47:11,636 - INFO - Uploading image 'closeup(1).jpg' to ComfyUI as '1756225031636_closeup(1).jpg'
+2025-08-26 21:47:12,169 - INFO - Successfully uploaded '1756225031636_closeup(1).jpg' to ComfyUI
+2025-08-26 21:47:12,172 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 21:47:12,339 - INFO - Prompt queued successfully with ID: 81508ac1-82cd-4ad5-b0d2-57b2c53cf01a
+2025-08-26 21:47:12,343 - INFO - Polling for results from prompt 81508ac1-82cd-4ad5-b0d2-57b2c53cf01a...
+2025-08-26 21:47:28,033 - INFO - Results received after 15.7s and 4 polls
+2025-08-26 21:47:28,036 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 21:47:28,036 - INFO - Found output image: ComfyUI_temp_bpthf_00002_.png in 
+2025-08-26 21:47:28,268 - INFO - Successfully fetched image (125543 bytes)
+2025-08-26 21:47:28,271 - INFO - Completed processing 'closeup(1).jpg' in 16.6s
+2025-08-26 21:47:28,271 - INFO - Successfully processed image 2/2: closeup(1).jpg
+2025-08-26 21:47:28,272 - INFO - ZIP processing completed: 2/2 images successful
+2025-08-26 21:47:28,272 - INFO - Creating ZIP response with 2 processed images...
+2025-08-26 21:47:28,295 - INFO - ZIP response created: 176217 bytes
+2025-08-26 21:47:28,297 - INFO - Processing completed in 33.1s
+2025-08-26 21:47:40,291 - INFO - Request unknown: Processing images from file: input.zip
+2025-08-26 21:47:40,296 - INFO - Request unknown: File size: 9553494 bytes, Content-Type: application/zip
+2025-08-26 21:47:40,304 - DEBUG - Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9a0yem3o
+2025-08-26 21:47:40,304 - DEBUG - Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9a0yem3o/uploaded.zip
+2025-08-26 21:47:40,312 - INFO - Request unknown: File saved successfully, starting processing
+2025-08-26 21:47:40,313 - INFO - Processing ZIP file: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9a0yem3o/uploaded.zip
+2025-08-26 21:47:40,322 - INFO - ZIP extracted to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9a0yem3o/extracted
+2025-08-26 21:47:40,326 - INFO - Prompt library loaded: 111 prompts
+2025-08-26 21:47:40,327 - INFO - Selecting images from base folder: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9a0yem3o/extracted
+2025-08-26 21:47:40,327 - INFO - Base folder exists: True
+2025-08-26 21:47:40,327 - INFO - Base folder is directory: True
+2025-08-26 21:47:40,328 - INFO - Detected flat structure - creating virtual folders
+2025-08-26 21:47:40,328 - INFO - Found 2 images in flat structure
+2025-08-26 21:47:40,330 - INFO - Created folder group_6292393310444: 2 images (0 model images)
+2025-08-26 21:47:40,330 - INFO - Total folders processed: 1
+2025-08-26 21:47:40,330 - INFO - Processing folder: group_6292393310444 with 2 images
+2025-08-26 21:47:40,330 - INFO - Detecting gender from image: 6292393310444_0001.jpg
+2025-08-26 21:47:42,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:47:42,170 - INFO - Gender detected: Men
+2025-08-26 21:47:42,170 - INFO - Generating comprehensive description for folder with 2 images
+2025-08-26 21:47:46,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:47:46,551 - INFO - Description generated for group_6292393310444: Wearing a black oversized graphic t-shirt with a colorful print depicting Rick Sanchez, paired with ...
+2025-08-26 21:47:46,551 - INFO - Successfully processed folder: group_6292393310444
+2025-08-26 21:47:46,552 - INFO - Zip file processing completed. 1 folders processed
+2025-08-26 21:47:46,552 - INFO - Request unknown: Processing completed in 6.240s
+2025-08-26 21:47:46,553 - DEBUG - Request unknown: Cleaned up temporary zip file
+2025-08-26 21:47:46,553 - INFO - Request unknown: Successfully processed 1 folders
+2025-08-26 21:47:52,670 - INFO - === REQUEST PROCESSING START ===
+2025-08-26 21:47:52,678 - INFO - Created temporary directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9gmpq_e9
+2025-08-26 21:47:52,679 - INFO - Extracting uploaded ZIP files...
+2025-08-26 21:47:52,680 - INFO - === ZIP EXTRACTION START ===
+2025-08-26 21:47:52,680 - INFO - Filename: input.zip
+2025-08-26 21:47:52,771 - INFO - Extracted 2 files:
+2025-08-26 21:47:52,772 - INFO -   - 6292393310444_0002.jpg
+2025-08-26 21:47:52,772 - INFO -   - closeup(1).jpg
+2025-08-26 21:47:52,772 - INFO - === ZIP EXTRACTION COMPLETED ===
+2025-08-26 21:47:52,772 - INFO - === ZIP EXTRACTION START ===
+2025-08-26 21:47:52,772 - INFO - Filename: input_processed.zip
+2025-08-26 21:47:52,774 - INFO - Extracted 2 files:
+2025-08-26 21:47:52,774 - INFO -   - 6292393310444_0002.jpg
+2025-08-26 21:47:52,774 - INFO -   - closeup(1).jpg
+2025-08-26 21:47:52,774 - INFO - === ZIP EXTRACTION COMPLETED ===
+2025-08-26 21:47:52,774 - INFO - Loaded prompts JSON with 1 entries
+2025-08-26 21:47:52,775 - INFO - Converted list format to dict format: 1 entries
+2025-08-26 21:47:52,776 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-26 21:47:52,776 - INFO - Starting to process images...
+2025-08-26 21:47:52,776 - INFO - Attempting to upload background image to ComfyUI server: https://153f213342941.notebooks.jarvislabs.net
+2025-08-26 21:47:52,982 - INFO - Successfully uploaded Final Workflow n8n Working/WhiteBackground_Template.png as WhiteBackground_Template_1756225072776.png
+2025-08-26 21:47:52,985 - INFO - Found 1 unique style images referenced in prompts.json
+2025-08-26 21:47:52,987 - INFO - Found 82 style files in Final Workflow n8n Working/style_images2
+2025-08-26 21:47:52,989 - WARNING - No match found for style: Indoor_Room1_women
+2025-08-26 21:47:52,989 - ERROR - Cannot proceed. Missing required style images: Indoor_Room1_women
+2025-08-26 21:47:52,989 - ERROR - Image processing failed: Cannot proceed. Missing required style images: Indoor_Room1_women
+2025-08-26 21:47:52,989 - ERROR - Image processing failed: Cannot proceed. Missing required style images: Indoor_Room1_women
+2025-08-26 21:47:52,991 - INFO - Temporary directory cleaned up
+2025-08-26 21:47:52,991 - ERROR - Unexpected error in process_images endpoint: 
+2025-08-26 21:47:52,991 - ERROR - Error type: HTTPException
+2025-08-26 21:47:53,016 - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/routes/workflow.py", line 105, in process_images
+    process_images_api(
+  File "/Users/apple/Desktop/Automation Dashboard API/services/workflow_service.py", line 545, in process_images_api
+    raise e
+  File "/Users/apple/Desktop/Automation Dashboard API/services/workflow_service.py", line 389, in process_images_api
+    raise Exception(error_msg)
+Exception: Cannot proceed. Missing required style images: Indoor_Room1_women
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Automation Dashboard API/routes/workflow.py", line 117, in process_images
+    raise HTTPException(status_code=500, detail=f"Image processing failed: {str(e)}")
+fastapi.exceptions.HTTPException
+

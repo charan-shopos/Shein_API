@@ -1,0 +1,165 @@
+2025-08-26 23:09:25,206 - INFO - === Starting image processing request ===
+2025-08-26 23:09:25,210 - INFO - Processing ZIP file: input.zip
+2025-08-26 23:09:25,380 - INFO - Processing images from /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpk9ewmdn_/input to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpk9ewmdn_/output
+2025-08-26 23:09:25,382 - INFO - Found 2 image files to process
+2025-08-26 23:09:25,493 - INFO - Processed: 6292393310444_0001.jpg -> closeup(1).jpg (renamed)
+2025-08-26 23:09:25,576 - INFO - Processed: 6292393310444_0002.jpg -> 6292393310444_0002.jpg (kept)
+2025-08-26 23:09:25,576 - INFO - Processing completed: 2 processed, 1 renamed, 1 skipped, 0 errors
+2025-08-26 23:09:25,576 - INFO - Manifest file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpk9ewmdn_/output/manifest.json
+2025-08-26 23:09:25,771 - INFO - ZIP created with 3 files
+2025-08-26 23:09:25,775 - INFO - MediaPipe face detection cleaned up
+2025-08-26 23:09:29,149 - INFO - Temporary directory cleaned up: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpk9ewmdn_
+2025-08-26 23:09:47,792 - INFO - Mask request received for file: input.zip
+2025-08-26 23:09:47,793 - INFO - Using ComfyUI URL: https://153f213342941.notebooks.jarvislabs.net/
+2025-08-26 23:09:47,793 - INFO - Reading uploaded file...
+2025-08-26 23:09:47,801 - INFO - File read: input.zip (9553135 bytes)
+2025-08-26 23:09:47,802 - INFO - Loading workflow from: Mask n8n Working/JSON.json
+2025-08-26 23:09:47,805 - INFO - Workflow JSON loaded successfully
+2025-08-26 23:09:47,805 - INFO - File 'input.zip' detected as ZIP
+2025-08-26 23:09:47,805 - INFO - Processing ZIP file with multiple images...
+2025-08-26 23:09:47,805 - INFO - Extracting images from ZIP file...
+2025-08-26 23:09:47,806 - INFO - ZIP contains 2 total files
+2025-08-26 23:09:47,810 - INFO - Extracted image 1/2: 6292393310444_0002.jpg (4042355 bytes)
+2025-08-26 23:09:47,813 - INFO - Extracted image 2/2: closeup(1).jpg (5510534 bytes)
+2025-08-26 23:09:47,813 - INFO - Successfully extracted 2 images from ZIP
+2025-08-26 23:09:47,813 - INFO - Processing image 1/2: 6292393310444_0002.jpg
+2025-08-26 23:09:47,814 - INFO - Processing single image: 6292393310444_0002.jpg
+2025-08-26 23:09:47,814 - INFO - Uploading image '6292393310444_0002.jpg' to ComfyUI as '1756229987814_6292393310444_0002.jpg'
+2025-08-26 23:09:48,356 - INFO - Successfully uploaded '1756229987814_6292393310444_0002.jpg' to ComfyUI
+2025-08-26 23:09:48,359 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 23:09:48,529 - INFO - Prompt queued successfully with ID: ed48a4cd-baf6-4671-bdc5-95492d57da09
+2025-08-26 23:09:48,533 - INFO - Polling for results from prompt ed48a4cd-baf6-4671-bdc5-95492d57da09...
+2025-08-26 23:10:04,133 - INFO - Results received after 15.6s and 4 polls
+2025-08-26 23:10:04,136 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 23:10:04,137 - INFO - Found output image: ComfyUI_temp_qxpsx_00001_.png in 
+2025-08-26 23:10:04,351 - INFO - Successfully fetched image (130217 bytes)
+2025-08-26 23:10:04,355 - INFO - Completed processing '6292393310444_0002.jpg' in 16.5s
+2025-08-26 23:10:04,355 - INFO - Successfully processed image 1/2: 6292393310444_0002.jpg
+2025-08-26 23:10:04,355 - INFO - Processing image 2/2: closeup(1).jpg
+2025-08-26 23:10:04,356 - INFO - Processing single image: closeup(1).jpg
+2025-08-26 23:10:04,356 - INFO - Uploading image 'closeup(1).jpg' to ComfyUI as '1756230004356_closeup(1).jpg'
+2025-08-26 23:10:05,001 - INFO - Successfully uploaded '1756230004356_closeup(1).jpg' to ComfyUI
+2025-08-26 23:10:05,005 - INFO - Queueing prompt to ComfyUI...
+2025-08-26 23:10:05,150 - INFO - Prompt queued successfully with ID: f4e29ee6-f89c-48c7-9628-52dadd0ca4f0
+2025-08-26 23:10:05,153 - INFO - Polling for results from prompt f4e29ee6-f89c-48c7-9628-52dadd0ca4f0...
+2025-08-26 23:10:20,781 - INFO - Results received after 15.6s and 4 polls
+2025-08-26 23:10:20,785 - INFO - Fetching processed image from ComfyUI...
+2025-08-26 23:10:20,785 - INFO - Found output image: ComfyUI_temp_qxpsx_00002_.png in 
+2025-08-26 23:10:21,011 - INFO - Successfully fetched image (125543 bytes)
+2025-08-26 23:10:21,015 - INFO - Completed processing 'closeup(1).jpg' in 16.7s
+2025-08-26 23:10:21,015 - INFO - Successfully processed image 2/2: closeup(1).jpg
+2025-08-26 23:10:21,016 - INFO - ZIP processing completed: 2/2 images successful
+2025-08-26 23:10:21,016 - INFO - Creating ZIP response with 2 processed images...
+2025-08-26 23:10:21,039 - INFO - ZIP response created: 176215 bytes
+2025-08-26 23:10:21,040 - INFO - Processing completed in 33.2s
+2025-08-26 23:10:30,180 - INFO - Request unknown: Processing images from file: input.zip
+2025-08-26 23:10:30,183 - INFO - Request unknown: File size: 9553494 bytes, Content-Type: application/zip
+2025-08-26 23:10:30,184 - DEBUG - Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpt413qlce
+2025-08-26 23:10:30,184 - DEBUG - Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpt413qlce/uploaded.zip
+2025-08-26 23:10:30,192 - INFO - Request unknown: File saved successfully, starting processing
+2025-08-26 23:10:30,192 - INFO - Processing ZIP file: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpt413qlce/uploaded.zip
+2025-08-26 23:10:30,204 - INFO - ZIP extracted to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpt413qlce/extracted
+2025-08-26 23:10:30,205 - INFO - Prompt library loaded: 111 prompts
+2025-08-26 23:10:30,206 - INFO - Selecting images from base folder: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpt413qlce/extracted
+2025-08-26 23:10:30,206 - INFO - Base folder exists: True
+2025-08-26 23:10:30,206 - INFO - Base folder is directory: True
+2025-08-26 23:10:30,206 - INFO - Detected flat structure - creating virtual folders
+2025-08-26 23:10:30,206 - INFO - Found 2 images in flat structure
+2025-08-26 23:10:30,207 - INFO - Created folder group_6292393310444: 2 images (0 model images)
+2025-08-26 23:10:30,207 - INFO - Total folders processed: 1
+2025-08-26 23:10:30,207 - INFO - Processing folder: group_6292393310444 with 2 images
+2025-08-26 23:10:30,207 - INFO - Detecting gender from image: 6292393310444_0001.jpg
+2025-08-26 23:10:31,766 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 23:10:31,776 - INFO - Gender detected: Men
+2025-08-26 23:10:31,778 - INFO - Selected background with available style file: Villa-style stone pathway → Villa-style stone pathway
+2025-08-26 23:10:31,778 - INFO - Generating comprehensive description for folder with 2 images
+2025-08-26 23:10:36,542 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 23:10:36,546 - INFO - Description generated for group_6292393310444: Wearing a black oversized cotton t-shirt featuring a colorful graphic design of the character Rick S...
+2025-08-26 23:10:36,546 - INFO - Successfully processed folder: group_6292393310444
+2025-08-26 23:10:36,546 - INFO - Zip file processing completed. 1 folders processed
+2025-08-26 23:10:36,546 - INFO - Request unknown: Processing completed in 6.354s
+2025-08-26 23:10:36,548 - DEBUG - Request unknown: Cleaned up temporary zip file
+2025-08-26 23:10:36,548 - INFO - Request unknown: Successfully processed 1 folders
+2025-08-26 23:10:42,283 - INFO - === REQUEST PROCESSING START ===
+2025-08-26 23:10:42,285 - INFO - Created temporary directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t
+2025-08-26 23:10:42,286 - INFO - Extracting uploaded ZIP files...
+2025-08-26 23:10:42,286 - INFO - === ZIP EXTRACTION START ===
+2025-08-26 23:10:42,286 - INFO - Filename: input.zip
+2025-08-26 23:10:42,303 - INFO - Extracted 2 files:
+2025-08-26 23:10:42,303 - INFO -   - 6292393310444_0002.jpg
+2025-08-26 23:10:42,303 - INFO -   - closeup(1).jpg
+2025-08-26 23:10:42,303 - INFO - === ZIP EXTRACTION COMPLETED ===
+2025-08-26 23:10:42,303 - INFO - === ZIP EXTRACTION START ===
+2025-08-26 23:10:42,303 - INFO - Filename: input_processed.zip
+2025-08-26 23:10:42,307 - INFO - Extracted 2 files:
+2025-08-26 23:10:42,307 - INFO -   - 6292393310444_0002.jpg
+2025-08-26 23:10:42,307 - INFO -   - closeup(1).jpg
+2025-08-26 23:10:42,308 - INFO - === ZIP EXTRACTION COMPLETED ===
+2025-08-26 23:10:42,308 - INFO - Loaded prompts JSON with 1 entries
+2025-08-26 23:10:42,308 - INFO - Converted list format to dict format: 1 entries
+2025-08-26 23:10:42,309 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-26 23:10:42,309 - INFO - Starting to process images...
+2025-08-26 23:10:42,309 - INFO - Attempting to upload background image to ComfyUI server: https://153f213342941.notebooks.jarvislabs.net
+2025-08-26 23:10:42,461 - INFO - Successfully uploaded Final Workflow n8n Working/WhiteBackground_Template.png as WhiteBackground_Template_1756230042309.png
+2025-08-26 23:10:42,464 - INFO - Found 1 unique style images referenced in prompts.json
+2025-08-26 23:10:42,466 - INFO - Found 152 style files in Final Workflow n8n Working/style_images2
+2025-08-26 23:10:42,467 - INFO - Matched style 'Villa-style stone pathway' to file: Villa-style stone pathway.jpg
+2025-08-26 23:10:42,467 - INFO - Found matching files for all 1 required style images
+2025-08-26 23:10:42,467 - INFO - Uploading required style image: Villa-style stone pathway.jpg -> Villa-style stone pathway
+2025-08-26 23:10:42,902 - INFO - Successfully uploaded Final Workflow n8n Working/style_images2/Villa-style stone pathway.jpg as Villa-style stone pathway_1756230042467.jpg
+2025-08-26 23:10:42,906 - INFO - Successfully uploaded style image for 'Villa-style stone pathway'
+2025-08-26 23:10:42,906 - INFO - Successfully uploaded all 1 required style images
+2025-08-26 23:10:42,906 - INFO - Starting image processing - processing all images with matching masks
+2025-08-26 23:10:42,907 - INFO - Found 2 images in input_images directory: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-26 23:10:42,907 - INFO - Found 2 masks in masks directory: ['6292393310444_0002.jpg', 'closeup(1).jpg']
+2025-08-26 23:10:42,907 - INFO - Found matching pair: 6292393310444_0002.jpg -> 6292393310444_0002.jpg
+2025-08-26 23:10:42,907 - INFO - Found matching pair: closeup(1).jpg -> closeup(1).jpg
+2025-08-26 23:10:42,907 - INFO - Found 2 matching image-mask pairs to process
+2025-08-26 23:10:42,907 - INFO - Using default prompt: Generate a scene of a young European male model (23 years old) with a white skin tone, a toned muscu...
+2025-08-26 23:10:42,907 - INFO - Using default style: Villa-style stone pathway
+2025-08-26 23:10:42,907 - INFO - Using style image: Villa-style stone pathway_1756230042467.jpg
+2025-08-26 23:10:42,908 - INFO - Created output directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/output/processed_images
+2025-08-26 23:10:42,908 - INFO - Processing pair 1/2: 6292393310444_0002.jpg + 6292393310444_0002.jpg
+2025-08-26 23:10:43,670 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/input_images/6292393310444_0002.jpg as 6292393310444_0002_1756230042908.jpg
+2025-08-26 23:10:44,214 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/masks/6292393310444_0002.jpg as 6292393310444_0002_1756230043674.jpg
+2025-08-26 23:10:44,219 - INFO - Updated input image node 454 with: 6292393310444_0002_1756230042908.jpg
+2025-08-26 23:10:44,219 - INFO - Updated mask image node 439 with: 6292393310444_0002_1756230043674.jpg
+2025-08-26 23:10:44,219 - INFO - Updated background image node 256 with: WhiteBackground_Template_1756230042309.png
+2025-08-26 23:10:44,219 - INFO - Updated style image node 110 with: Villa-style stone pathway_1756230042467.jpg
+2025-08-26 23:10:44,219 - INFO - Updated prompt text node 448 with: Generate a scene of a young European male model (2...
+2025-08-26 23:10:44,219 - INFO - Submitting workflow to: https://153f213342941.notebooks.jarvislabs.net/prompt
+2025-08-26 23:10:44,219 - INFO - Workflow has 87 nodes
+2025-08-26 23:10:44,503 - INFO - Successfully submitted workflow, got prompt ID: 08e00272-3f72-47e2-929a-da39a413ad9b
+2025-08-26 23:10:44,506 - INFO - Waiting for ComfyUI to complete prompt: 08e00272-3f72-47e2-929a-da39a413ad9b
+2025-08-26 23:11:56,747 - INFO - ComfyUI completed prompt: 08e00272-3f72-47e2-929a-da39a413ad9b
+2025-08-26 23:11:57,314 - INFO - Downloaded processed image: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/output/processed_images/processed_6292393310444_0002.jpg
+2025-08-26 23:11:57,321 - INFO - Successfully processed: 6292393310444_0002.jpg
+2025-08-26 23:11:57,321 - INFO - Processing pair 2/2: closeup(1).jpg + closeup(1).jpg
+2025-08-26 23:11:57,831 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/input_images/closeup(1).jpg as closeup(1)_1756230117322.jpg
+2025-08-26 23:11:58,105 - INFO - Successfully uploaded /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/masks/closeup(1).jpg as closeup(1)_1756230117833.jpg
+2025-08-26 23:11:58,112 - INFO - Updated input image node 454 with: closeup(1)_1756230117322.jpg
+2025-08-26 23:11:58,112 - INFO - Updated mask image node 439 with: closeup(1)_1756230117833.jpg
+2025-08-26 23:11:58,112 - INFO - Updated background image node 256 with: WhiteBackground_Template_1756230042309.png
+2025-08-26 23:11:58,113 - INFO - Updated style image node 110 with: Villa-style stone pathway_1756230042467.jpg
+2025-08-26 23:11:58,113 - INFO - Updated prompt text node 448 with: Generate a scene of a young European male model (2...
+2025-08-26 23:11:58,113 - INFO - Submitting workflow to: https://153f213342941.notebooks.jarvislabs.net/prompt
+2025-08-26 23:11:58,113 - INFO - Workflow has 87 nodes
+2025-08-26 23:11:58,250 - INFO - Successfully submitted workflow, got prompt ID: 912cd8a3-fc1a-4837-8e7a-159f7c46b49f
+2025-08-26 23:11:58,255 - INFO - Waiting for ComfyUI to complete prompt: 912cd8a3-fc1a-4837-8e7a-159f7c46b49f
+2025-08-26 23:13:02,428 - INFO - ComfyUI completed prompt: 912cd8a3-fc1a-4837-8e7a-159f7c46b49f
+2025-08-26 23:13:03,020 - INFO - Downloaded processed image: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/output/processed_images/processed_closeup(1).jpg
+2025-08-26 23:13:03,028 - INFO - Successfully processed: closeup(1).jpg
+2025-08-26 23:13:03,028 - INFO - Processing completed: 2 successful, 0 failed
+2025-08-26 23:13:03,028 - INFO - Image processing completed successfully
+2025-08-26 23:13:03,028 - INFO - Creating final ZIP file...
+2025-08-26 23:13:03,029 - INFO - Found 2 processed images: ['processed_6292393310444_0002.jpg', 'processed_closeup(1).jpg']
+2025-08-26 23:13:03,037 - INFO - Added to ZIP: processed_images/processed_6292393310444_0002.jpg
+2025-08-26 23:13:03,044 - INFO - Added to ZIP: processed_images/processed_closeup(1).jpg
+2025-08-26 23:13:03,044 - INFO - ZIP file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpda9mfx7t/processed_images_1756230183.zip
+2025-08-26 23:13:03,045 - INFO - ZIP file size: 3004367 bytes
+2025-08-26 23:13:03,046 - INFO - === REQUEST PROCESSING COMPLETED SUCCESSFULLY ===
+2025-08-26 23:13:03,050 - INFO - 💾 Saved processed image: workflow_output_20250826_231303/processed_6292393310444_0002.jpg
+2025-08-26 23:13:03,052 - INFO - 💾 Saved processed image: workflow_output_20250826_231303/processed_closeup(1).jpg
+2025-08-26 23:13:03,052 - INFO - 🎯 ALL PROCESSED IMAGES SAVED TO: /Users/apple/Desktop/Automation Dashboard API/workflow_output_20250826_231303
+2025-08-26 23:13:03,052 - INFO - 📁 You can view your processed images at: /Users/apple/Desktop/Automation Dashboard API/workflow_output_20250826_231303
+2025-08-26 23:13:03,055 - INFO - Temporary directory cleaned up

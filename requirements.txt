@@ -1,0 +1,32 @@
+# Unified Requirements for Automation Dashboard API
+# This file consolidates all dependencies from all API services
+
+# Core FastAPI and server
+fastapi>=0.68.0
+uvicorn[standard]>=0.15.0
+python-multipart>=0.0.5
+
+# HTTP and requests
+requests>=2.25.1
+urllib3>=1.26.0
+aiohttp>=3.8.0
+
+# Image processing
+Pillow>=8.3.0
+opencv-python>=4.5.0
+mediapipe>=0.8.0
+
+# AI and OpenAI
+openai>=1.0.0
+
+# Data handling
+pydantic>=1.8.0
+
+# Environment and configuration
+python-dotenv>=0.19.0
+
+# File handling
+aiofiles>=0.7.0
+
+# CORS support
+fastapi-cors>=0.0.6 

@@ -1,0 +1,83 @@
+2025-08-23 22:06:25,753 - INFO - API startup successful - all required files found
+2025-08-23 22:06:36,956 - INFO - === NEW REQUEST RECEIVED ===
+2025-08-23 22:06:36,957 - INFO - comfyui_url: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:06:36,957 - INFO - images_zip filename: input_images copy.zip
+2025-08-23 22:06:36,957 - INFO - masks_zip filename: masks copy.zip
+2025-08-23 22:06:36,957 - INFO - prompts_json filename: Prompts copy.json
+2025-08-23 22:06:36,957 - INFO - Generated task ID: 8136902d-6ee4-48de-8b12-770d61099b9b
+2025-08-23 22:06:36,957 - INFO - Creating temporary directories...
+2025-08-23 22:06:36,958 - INFO - Temp dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk
+2025-08-23 22:06:36,958 - INFO - Input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/input_images
+2025-08-23 22:06:36,959 - INFO - Masks dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/masks
+2025-08-23 22:06:36,959 - INFO - Output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/output
+2025-08-23 22:06:36,959 - INFO - Temporary directories created successfully
+2025-08-23 22:06:36,959 - INFO - Starting ZIP extraction...
+2025-08-23 22:06:36,959 - INFO - Attempting to extract images ZIP: input_images copy.zip
+2025-08-23 22:06:36,959 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:06:36,959 - INFO - Filename: input_images copy.zip
+2025-08-23 22:06:36,960 - INFO - Content type: application/zip
+2025-08-23 22:06:36,960 - INFO - File size: 9540777
+2025-08-23 22:06:36,960 - INFO - Reading file content...
+2025-08-23 22:06:36,962 - INFO - Content read successfully. Size: 9540777 bytes
+2025-08-23 22:06:36,962 - INFO - Creating BytesIO object...
+2025-08-23 22:06:36,962 - INFO - BytesIO object created successfully
+2025-08-23 22:06:36,962 - INFO - Validating ZIP format...
+2025-08-23 22:06:36,963 - INFO - ZIP format validation passed
+2025-08-23 22:06:36,963 - INFO - File pointer reset to beginning
+2025-08-23 22:06:36,963 - INFO - Opening ZIP file...
+2025-08-23 22:06:36,966 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:06:36,966 - INFO - ZIP file list: ['input_images copy/', '__MACOSX/._input_images copy', 'input_images copy/.DS_Store', '__MACOSX/input_images copy/._.DS_Store', 'input_images copy/6292393310444/', '__MACOSX/input_images copy/._6292393310444', 'input_images copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/input_images copy/6292393310444/._6292393310444_0002.jpg', 'input_images copy/6292393310444/closeup(1).jpg', '__MACOSX/input_images copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:06:36,966 - INFO - Testing ZIP integrity...
+2025-08-23 22:06:36,989 - INFO - ZIP integrity test passed
+2025-08-23 22:06:36,990 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/input_images
+2025-08-23 22:06:37,015 - INFO - Successfully extracted input_images copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/input_images
+2025-08-23 22:06:37,015 - INFO - Extracted files: ['input_images copy', '__MACOSX']
+2025-08-23 22:06:37,015 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:06:37,016 - INFO - Images ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/input_images
+2025-08-23 22:06:37,016 - INFO - Attempting to extract masks ZIP: masks copy.zip
+2025-08-23 22:06:37,016 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:06:37,016 - INFO - Filename: masks copy.zip
+2025-08-23 22:06:37,016 - INFO - Content type: application/zip
+2025-08-23 22:06:37,016 - INFO - File size: 179063
+2025-08-23 22:06:37,016 - INFO - Reading file content...
+2025-08-23 22:06:37,016 - INFO - Content read successfully. Size: 179063 bytes
+2025-08-23 22:06:37,016 - INFO - Creating BytesIO object...
+2025-08-23 22:06:37,016 - INFO - BytesIO object created successfully
+2025-08-23 22:06:37,016 - INFO - Validating ZIP format...
+2025-08-23 22:06:37,016 - INFO - ZIP format validation passed
+2025-08-23 22:06:37,016 - INFO - File pointer reset to beginning
+2025-08-23 22:06:37,016 - INFO - Opening ZIP file...
+2025-08-23 22:06:37,016 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:06:37,016 - INFO - ZIP file list: ['masks copy/', '__MACOSX/._masks copy', 'masks copy/.DS_Store', '__MACOSX/masks copy/._.DS_Store', 'masks copy/6292393310444/', '__MACOSX/masks copy/._6292393310444', 'masks copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/masks copy/6292393310444/._6292393310444_0002.jpg', 'masks copy/6292393310444/closeup(1).jpg', '__MACOSX/masks copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:06:37,016 - INFO - Testing ZIP integrity...
+2025-08-23 22:06:37,017 - INFO - ZIP integrity test passed
+2025-08-23 22:06:37,017 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/masks
+2025-08-23 22:06:37,020 - INFO - Successfully extracted masks copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/masks
+2025-08-23 22:06:37,020 - INFO - Extracted files: ['masks copy', '__MACOSX']
+2025-08-23 22:06:37,020 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:06:37,020 - INFO - Masks ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpqnqn14sk/masks
+2025-08-23 22:06:37,020 - INFO - Reading and validating prompts JSON...
+2025-08-23 22:06:37,020 - INFO - Prompts JSON content length: 1189 bytes
+2025-08-23 22:06:37,020 - INFO - Prompts JSON parsed successfully. Number of products: 1
+2025-08-23 22:06:37,021 - INFO - Product IDs: ['6292393310444']
+2025-08-23 22:06:37,021 - INFO - Loading workflow configuration...
+2025-08-23 22:06:37,021 - INFO - Workflow configuration loaded successfully
+2025-08-23 22:06:37,022 - INFO - Starting background processing task...
+2025-08-23 22:06:37,022 - INFO - ComfyUI URL: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:06:37,022 - INFO - Input directory contents: ['input_images copy', '__MACOSX']
+2025-08-23 22:06:37,022 - INFO - Masks directory contents: ['masks copy', '__MACOSX']
+2025-08-23 22:06:37,022 - INFO - Background task queued successfully. Task ID: 8136902d-6ee4-48de-8b12-770d61099b9b
+2025-08-23 22:06:37,022 - INFO - === REQUEST PROCESSING COMPLETED SUCCESSFULLY ===
+2025-08-23 22:06:37,027 - INFO - Starting to process images...
+2025-08-23 22:06:37,348 - INFO - Uploaded WhiteBackground_Template.png as WhiteBackground_Template_20250823_220637_61e9070e.png
+2025-08-23 22:06:37,351 - INFO - Found 1 unique style images referenced in prompts.json
+2025-08-23 22:06:37,351 - INFO - Required style images: Urban street
+2025-08-23 22:06:37,354 - INFO - Found matching files for all 1 required style images
+2025-08-23 22:06:37,354 - INFO - Uploading required style image: Urban street.jpg -> Urban street
+2025-08-23 22:06:37,577 - INFO - Uploaded Urban street.jpg as Urban street_20250823_220637_50dea322.jpg
+2025-08-23 22:06:37,581 - INFO - Successfully uploaded style image for 'Urban street'
+2025-08-23 22:06:37,581 - INFO - Successfully uploaded all 1 required style images
+2025-08-23 22:06:37,581 - INFO - Processing product ID: 6292393310444
+2025-08-23 22:06:37,582 - INFO - Looking for style image: Urban street
+2025-08-23 22:06:37,582 - WARNING - No input directory found for product 6292393310444, skipping
+2025-08-23 22:06:37,582 - INFO - Processing completed successfully

@@ -1,0 +1,100 @@
+2025-08-23 22:27:15,867 - INFO - API startup successful - all required files found
+2025-08-23 22:28:20,647 - INFO - === NEW REQUEST RECEIVED ===
+2025-08-23 22:28:20,652 - INFO - comfyui_url: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:28:20,652 - INFO - images_zip filename: input_images copy.zip
+2025-08-23 22:28:20,652 - INFO - masks_zip filename: masks copy.zip
+2025-08-23 22:28:20,652 - INFO - prompts_json filename: Prompts copy.json
+2025-08-23 22:28:20,652 - INFO - Creating temporary directories...
+2025-08-23 22:28:20,652 - INFO - Temp dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0
+2025-08-23 22:28:20,654 - INFO - Input dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/input_images
+2025-08-23 22:28:20,654 - INFO - Masks dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/masks
+2025-08-23 22:28:20,654 - INFO - Output dir: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/output
+2025-08-23 22:28:20,654 - INFO - Temporary directories created successfully
+2025-08-23 22:28:20,654 - INFO - Starting ZIP extraction...
+2025-08-23 22:28:20,654 - INFO - Attempting to extract images ZIP: input_images copy.zip
+2025-08-23 22:28:20,654 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:28:20,654 - INFO - Filename: input_images copy.zip
+2025-08-23 22:28:20,654 - INFO - Content type: application/zip
+2025-08-23 22:28:20,654 - INFO - File size: 9540777
+2025-08-23 22:28:20,654 - INFO - Reading file content...
+2025-08-23 22:28:20,658 - INFO - Content read successfully. Size: 9540777 bytes
+2025-08-23 22:28:20,659 - INFO - Creating BytesIO object...
+2025-08-23 22:28:20,659 - INFO - BytesIO object created successfully
+2025-08-23 22:28:20,659 - INFO - Validating ZIP format...
+2025-08-23 22:28:20,662 - INFO - ZIP format validation passed
+2025-08-23 22:28:20,662 - INFO - File pointer reset to beginning
+2025-08-23 22:28:20,662 - INFO - Opening ZIP file...
+2025-08-23 22:28:20,663 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:28:20,663 - INFO - ZIP file list: ['input_images copy/', '__MACOSX/._input_images copy', 'input_images copy/.DS_Store', '__MACOSX/input_images copy/._.DS_Store', 'input_images copy/6292393310444/', '__MACOSX/input_images copy/._6292393310444', 'input_images copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/input_images copy/6292393310444/._6292393310444_0002.jpg', 'input_images copy/6292393310444/closeup(1).jpg', '__MACOSX/input_images copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:28:20,663 - INFO - Testing ZIP integrity...
+2025-08-23 22:28:20,692 - INFO - ZIP integrity test passed
+2025-08-23 22:28:20,692 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/input_images
+2025-08-23 22:28:20,707 - INFO - Successfully extracted input_images copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/input_images
+2025-08-23 22:28:20,708 - INFO - Extracted files: ['input_images copy', '__MACOSX']
+2025-08-23 22:28:20,708 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:28:20,708 - INFO - Images ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/input_images
+2025-08-23 22:28:20,708 - INFO - Attempting to extract masks ZIP: masks copy.zip
+2025-08-23 22:28:20,708 - INFO - === ZIP EXTRACTION START ===
+2025-08-23 22:28:20,708 - INFO - Filename: masks copy.zip
+2025-08-23 22:28:20,708 - INFO - Content type: application/zip
+2025-08-23 22:28:20,708 - INFO - File size: 179063
+2025-08-23 22:28:20,708 - INFO - Reading file content...
+2025-08-23 22:28:20,708 - INFO - Content read successfully. Size: 179063 bytes
+2025-08-23 22:28:20,708 - INFO - Creating BytesIO object...
+2025-08-23 22:28:20,708 - INFO - BytesIO object created successfully
+2025-08-23 22:28:20,708 - INFO - Validating ZIP format...
+2025-08-23 22:28:20,708 - INFO - ZIP format validation passed
+2025-08-23 22:28:20,708 - INFO - File pointer reset to beginning
+2025-08-23 22:28:20,708 - INFO - Opening ZIP file...
+2025-08-23 22:28:20,708 - INFO - ZIP file opened. Number of files: 10
+2025-08-23 22:28:20,708 - INFO - ZIP file list: ['masks copy/', '__MACOSX/._masks copy', 'masks copy/.DS_Store', '__MACOSX/masks copy/._.DS_Store', 'masks copy/6292393310444/', '__MACOSX/masks copy/._6292393310444', 'masks copy/6292393310444/6292393310444_0002.jpg', '__MACOSX/masks copy/6292393310444/._6292393310444_0002.jpg', 'masks copy/6292393310444/closeup(1).jpg', '__MACOSX/masks copy/6292393310444/._closeup(1).jpg']...
+2025-08-23 22:28:20,708 - INFO - Testing ZIP integrity...
+2025-08-23 22:28:20,709 - INFO - ZIP integrity test passed
+2025-08-23 22:28:20,709 - INFO - Extracting to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/masks
+2025-08-23 22:28:20,712 - INFO - Successfully extracted masks copy.zip to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/masks
+2025-08-23 22:28:20,712 - INFO - Extracted files: ['masks copy', '__MACOSX']
+2025-08-23 22:28:20,712 - INFO - === ZIP EXTRACTION COMPLETED SUCCESSFULLY ===
+2025-08-23 22:28:20,712 - INFO - Masks ZIP extracted successfully to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmprm2a1pb0/masks
+2025-08-23 22:28:20,712 - INFO - Reading and validating prompts JSON...
+2025-08-23 22:28:20,712 - INFO - Prompts JSON content length: 1189 bytes
+2025-08-23 22:28:20,712 - INFO - Prompts JSON parsed successfully. Number of products: 1
+2025-08-23 22:28:20,712 - INFO - Product IDs: ['6292393310444']
+2025-08-23 22:28:20,712 - INFO - Loading workflow configuration...
+2025-08-23 22:28:20,713 - INFO - Workflow configuration loaded successfully
+2025-08-23 22:28:20,713 - INFO - Starting synchronous image processing...
+2025-08-23 22:28:20,713 - INFO - ComfyUI URL: https://0b19323147381.notebooks.jarvislabs.net/
+2025-08-23 22:28:20,713 - INFO - Input directory contents: ['input_images copy', '__MACOSX']
+2025-08-23 22:28:20,713 - INFO - Masks directory contents: ['masks copy', '__MACOSX']
+2025-08-23 22:28:20,713 - INFO - Starting image processing - this will wait for ComfyUI to complete ALL images...
+2025-08-23 22:28:20,713 - INFO - Starting to process images...
+2025-08-23 22:28:20,888 - WARNING - Upload attempt 1 failed for WhiteBackground_Template.png: 503 Server Error: Service Unavailable for url: https://0b19323147381.notebooks.jarvislabs.net//upload/image
+2025-08-23 22:28:20,888 - ERROR - Fatal error during processing: name 'MAX_RETRIALS' is not defined
+2025-08-23 22:28:20,888 - ERROR - Image processing failed: name 'MAX_RETRIALS' is not defined
+2025-08-23 22:28:20,891 - INFO - Temporary directory cleaned up
+2025-08-23 22:28:20,891 - ERROR - Unexpected error in process_images endpoint: 
+2025-08-23 22:28:20,891 - ERROR - Error type: HTTPException
+2025-08-23 22:28:20,893 - ERROR - Traceback: Traceback (most recent call last):
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 250, in upload_image_with_retry
+    response.raise_for_status()
+  File "/Users/apple/Library/Python/3.9/lib/python/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Unavailable for url: https://0b19323147381.notebooks.jarvislabs.net//upload/image
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 703, in process_images
+    process_images_api(
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 398, in process_images_api
+    bg_filename = upload_image_with_retry(background_image_path, server_url, make_unique=True)
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 255, in upload_image_with_retry
+    if attempt < MAX_RETRIALS - 1:
+NameError: name 'MAX_RETRIALS' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/Final Workflow n8n/api.py", line 715, in process_images
+    raise HTTPException(status_code=500, detail=f"Image processing failed: {str(e)}")
+fastapi.exceptions.HTTPException
+

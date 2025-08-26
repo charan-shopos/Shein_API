@@ -1,0 +1,45 @@
+2025-08-27 01:33:20,859 - INFO - === Starting image processing request ===
+2025-08-27 01:33:20,860 - INFO - Processing ZIP file: input.zip
+2025-08-27 01:33:21,030 - INFO - Processing images from /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmphizckbf9/input to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmphizckbf9/output
+2025-08-27 01:33:21,030 - INFO - Found 2 image files to process
+2025-08-27 01:33:21,140 - INFO - Processed: 6292393310444_0001.jpg -> closeup(1).jpg (renamed)
+2025-08-27 01:33:21,232 - INFO - Processed: 6292393310444_0002.jpg -> 6292393310444_0002.jpg (kept)
+2025-08-27 01:33:21,232 - INFO - Processing completed: 2 processed, 1 renamed, 1 skipped, 0 errors
+2025-08-27 01:33:21,233 - INFO - Manifest file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmphizckbf9/output/manifest.json
+2025-08-27 01:33:21,434 - INFO - ZIP created with 3 files
+2025-08-27 01:33:21,437 - INFO - MediaPipe face detection cleaned up
+2025-08-27 01:33:25,362 - INFO - Temporary directory cleaned up: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmphizckbf9
+2025-08-27 01:33:41,373 - INFO - Mask request received for file: input.zip
+2025-08-27 01:33:41,374 - INFO - Using ComfyUI URL: https://153f213342941.notebooks.jarvislabs.net/
+2025-08-27 01:33:41,374 - INFO - Reading uploaded file...
+2025-08-27 01:33:41,379 - INFO - File read: input.zip (9553135 bytes)
+2025-08-27 01:33:41,380 - INFO - Loading workflow from: Mask n8n Working/JSON.json
+2025-08-27 01:33:41,382 - INFO - Workflow JSON loaded successfully
+2025-08-27 01:33:41,382 - INFO - File 'input.zip' detected as ZIP
+2025-08-27 01:33:41,382 - INFO - Processing ZIP file with multiple images...
+2025-08-27 01:33:41,382 - INFO - Extracting images from ZIP file...
+2025-08-27 01:33:41,383 - INFO - ZIP contains 2 total files
+2025-08-27 01:33:41,385 - INFO - Extracted image 1/2: 6292393310444_0002.jpg (4042355 bytes)
+2025-08-27 01:33:41,387 - INFO - Extracted image 2/2: closeup(1).jpg (5510534 bytes)
+2025-08-27 01:33:41,387 - INFO - Successfully extracted 2 images from ZIP
+2025-08-27 01:33:41,387 - INFO - Processing image 1/2: 6292393310444_0002.jpg
+2025-08-27 01:33:41,388 - INFO - Processing single image: 6292393310444_0002.jpg
+2025-08-27 01:33:41,388 - INFO - Uploading image '6292393310444_0002.jpg' to ComfyUI as '1756238621388_6292393310444_0002.jpg'
+2025-08-27 01:33:41,781 - WARNING - Upload attempt 1 failed: 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:41,781 - INFO - Retrying in 2 seconds...
+2025-08-27 01:33:44,047 - WARNING - Upload attempt 2 failed: 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:44,047 - INFO - Retrying in 2 seconds...
+2025-08-27 01:33:46,319 - WARNING - Upload attempt 3 failed: 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:46,320 - ERROR - All upload attempts failed for '6292393310444_0002.jpg': 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:46,320 - ERROR - Failed to process image 6292393310444_0002.jpg: 
+2025-08-27 01:33:46,320 - INFO - Processing image 2/2: closeup(1).jpg
+2025-08-27 01:33:46,321 - INFO - Processing single image: closeup(1).jpg
+2025-08-27 01:33:46,321 - INFO - Uploading image 'closeup(1).jpg' to ComfyUI as '1756238626321_closeup(1).jpg'
+2025-08-27 01:33:46,732 - WARNING - Upload attempt 1 failed: 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:46,733 - INFO - Retrying in 2 seconds...
+2025-08-27 01:33:49,045 - WARNING - Upload attempt 2 failed: 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:49,046 - INFO - Retrying in 2 seconds...
+2025-08-27 01:33:51,340 - WARNING - Upload attempt 3 failed: 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:51,341 - ERROR - All upload attempts failed for 'closeup(1).jpg': 502 Server Error: Bad Gateway for url: https://153f213342941.notebooks.jarvislabs.net/upload/image
+2025-08-27 01:33:51,341 - ERROR - Failed to process image closeup(1).jpg: 
+2025-08-27 01:33:51,341 - ERROR - Failed to process any images from ZIP

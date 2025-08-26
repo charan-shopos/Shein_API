@@ -1,0 +1,11 @@
+2025-08-26 23:04:11,058 - INFO - === Starting image processing request ===
+2025-08-26 23:04:11,060 - INFO - Processing ZIP file: input.zip
+2025-08-26 23:04:11,258 - INFO - Processing images from /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpjfjf7n7d/input to /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpjfjf7n7d/output
+2025-08-26 23:04:11,258 - INFO - Found 2 image files to process
+2025-08-26 23:04:11,376 - INFO - Processed: 6292393310444_0001.jpg -> closeup(1).jpg (renamed)
+2025-08-26 23:04:11,456 - INFO - Processed: 6292393310444_0002.jpg -> 6292393310444_0002.jpg (kept)
+2025-08-26 23:04:11,456 - INFO - Processing completed: 2 processed, 1 renamed, 1 skipped, 0 errors
+2025-08-26 23:04:11,456 - INFO - Manifest file created: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpjfjf7n7d/output/manifest.json
+2025-08-26 23:04:11,647 - INFO - ZIP created with 3 files
+2025-08-26 23:04:11,652 - INFO - MediaPipe face detection cleaned up
+2025-08-26 23:04:15,032 - INFO - Temporary directory cleaned up: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpjfjf7n7d

@@ -1,0 +1,168 @@
+2025-08-26 19:58:16,766 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 19:58:16,775 | INFO     | process_images:65 | Request unknown: File size: 9553151 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 19:58:16,789 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcugy8x1z | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 19:58:16,792 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpcugy8x1z/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 19:58:16,808 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 19:58:22,518 | INFO     | process_images:87 | Request unknown: Processing completed in 5.708s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 19:58:22,529 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 19:58:22,530 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 19:58:54,204 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 19:58:54,206 | INFO     | process_images:65 | Request unknown: File size: 52320743 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 19:58:54,208 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp6xkek9qe | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 19:58:54,208 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp6xkek9qe/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 19:58:54,284 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 19:59:01,050 | INFO     | process_images:87 | Request unknown: Processing completed in 6.765s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 19:59:01,053 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 19:59:01,053 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 19:59:23,593 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 19:59:23,594 | INFO     | process_images:65 | Request unknown: File size: 26804679 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 19:59:23,595 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp522isy9v | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 19:59:23,596 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp522isy9v/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 19:59:23,647 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 19:59:29,051 | INFO     | process_images:87 | Request unknown: Processing completed in 5.404s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 19:59:29,054 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 19:59:29,055 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 20:24:19,011 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 20:24:19,013 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 20:24:19,017 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp7v8f7qj8 | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 20:24:19,018 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp7v8f7qj8/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 20:24:19,022 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 20:24:24,106 | INFO     | process_images:87 | Request unknown: Processing completed in 5.084s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 20:24:24,107 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 20:24:24,108 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 20:26:23,509 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 20:26:23,512 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 20:26:23,515 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmproh1l71a | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 20:26:23,516 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmproh1l71a/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 20:26:23,550 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 20:26:28,217 | INFO     | process_images:87 | Request unknown: Processing completed in 4.666s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 20:26:28,218 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 20:26:28,218 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 20:49:20,083 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 20:49:20,087 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 20:49:20,088 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp3ckybo7r | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 20:49:20,089 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp3ckybo7r/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 20:49:20,103 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 20:49:25,165 | INFO     | process_images:87 | Request unknown: Processing completed in 5.062s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 20:49:25,166 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 20:49:25,167 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 20:59:56,601 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 20:59:56,604 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 20:59:56,605 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpc9scloma | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 20:59:56,605 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpc9scloma/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 20:59:56,616 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:00:01,484 | INFO     | process_images:87 | Request unknown: Processing completed in 4.867s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:00:01,485 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:00:01,485 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 21:02:27,940 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 21:02:27,942 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 21:02:27,944 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpyb383u6h | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 21:02:27,944 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpyb383u6h/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 21:02:27,955 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:02:33,301 | INFO     | process_images:87 | Request unknown: Processing completed in 5.346s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:02:33,302 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:02:33,302 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 21:04:51,438 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 21:04:51,441 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 21:04:51,444 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp5fojp7m3 | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 21:04:51,444 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp5fojp7m3/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 21:04:51,472 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:04:56,584 | INFO     | process_images:87 | Request unknown: Processing completed in 5.111s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:04:56,585 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:04:56,585 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 21:09:49,726 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 21:09:49,730 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 21:09:49,732 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpgcvfqq05 | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 21:09:49,733 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpgcvfqq05/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 21:09:49,754 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:09:56,138 | INFO     | process_images:87 | Request unknown: Processing completed in 6.383s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:09:56,140 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:09:56,140 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 21:21:11,405 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 21:21:11,407 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 21:21:11,408 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpf37uni0d | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 21:21:11,409 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpf37uni0d/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 21:21:11,436 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:21:15,811 | INFO     | process_images:87 | Request unknown: Processing completed in 4.375s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:21:15,813 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:21:15,813 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 21:29:21,479 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 21:29:21,483 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 21:29:21,484 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpxced54bg | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 21:29:21,484 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpxced54bg/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 21:29:21,498 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:29:27,563 | INFO     | process_images:87 | Request unknown: Processing completed in 6.065s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:29:27,564 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:29:27,564 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 21:33:32,112 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 21:33:32,118 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 21:33:32,119 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp1i1vg3t4 | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 21:33:32,119 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp1i1vg3t4/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 21:33:32,139 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:33:37,117 | INFO     | process_images:87 | Request unknown: Processing completed in 4.978s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:33:37,118 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:33:37,119 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 21:47:40,291 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 21:47:40,296 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 21:47:40,304 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9a0yem3o | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 21:47:40,304 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp9a0yem3o/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 21:47:40,312 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 21:47:46,552 | INFO     | process_images:87 | Request unknown: Processing completed in 6.240s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 21:47:46,553 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 21:47:46,553 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 22:16:11,885 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 22:16:11,887 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 22:16:11,888 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp68lb2e1n | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 22:16:11,888 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp68lb2e1n/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 22:16:11,896 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 22:16:17,534 | INFO     | process_images:87 | Request unknown: Processing completed in 5.638s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 22:16:17,536 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 22:16:17,536 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 22:28:54,018 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 22:28:54,020 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 22:28:54,022 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmphd4prrba | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 22:28:54,022 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmphd4prrba/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 22:28:54,028 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 22:28:58,045 | INFO     | process_images:87 | Request unknown: Processing completed in 4.016s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 22:28:58,045 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 22:28:58,045 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 22:39:43,604 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 22:39:43,604 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 22:39:43,605 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpe7dcch0f | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 22:39:43,606 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpe7dcch0f/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 22:39:43,614 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 22:39:48,019 | INFO     | process_images:87 | Request unknown: Processing completed in 4.405s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 22:39:48,020 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 22:39:48,020 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 23:10:30,180 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 23:10:30,183 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 23:10:30,184 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpt413qlce | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 23:10:30,184 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpt413qlce/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 23:10:30,192 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 23:10:36,546 | INFO     | process_images:87 | Request unknown: Processing completed in 6.354s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 23:10:36,548 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 23:10:36,548 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-26 23:49:45,864 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-26 23:49:45,867 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-26 23:49:45,868 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp44fkpxdg | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-26 23:49:45,868 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmp44fkpxdg/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-26 23:49:45,880 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-26 23:49:50,911 | INFO     | process_images:87 | Request unknown: Processing completed in 5.030s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-26 23:49:50,912 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-26 23:49:50,912 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-27 01:05:57,281 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-27 01:05:57,284 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-27 01:05:57,285 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmph8u29g48 | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-27 01:05:57,285 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmph8u29g48/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-27 01:05:57,301 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-27 01:06:03,865 | INFO     | process_images:87 | Request unknown: Processing completed in 6.563s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-27 01:06:03,866 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-27 01:06:03,866 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
+2025-08-27 01:25:41,320 | INFO     | process_images:57 | Request unknown: Processing images from file: input.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:57
+2025-08-27 01:25:41,322 | INFO     | process_images:65 | Request unknown: File size: 9553494 bytes, Content-Type: application/zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:65
+2025-08-27 01:25:41,322 | DEBUG    | process_images:71 | Request unknown: Created temp directory: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbadae9n9 | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:71
+2025-08-27 01:25:41,322 | DEBUG    | process_images:75 | Request unknown: Saving uploaded file to: /var/folders/c1/ldxrmn552j738t4qrsd_czr40000gn/T/tmpbadae9n9/uploaded.zip | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:75
+2025-08-27 01:25:41,329 | INFO     | process_images:80 | Request unknown: File saved successfully, starting processing | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:80
+2025-08-27 01:25:47,159 | INFO     | process_images:87 | Request unknown: Processing completed in 5.830s | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:87
+2025-08-27 01:25:47,160 | DEBUG    | process_images:92 | Request unknown: Cleaned up temporary zip file | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:92
+2025-08-27 01:25:47,160 | INFO     | process_images:94 | Request unknown: Successfully processed 1 folders | /Users/apple/Desktop/Automation Dashboard API/routes/promptmap.py:94
