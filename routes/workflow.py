@@ -155,29 +155,7 @@ async def process_images(
             
             logger.info("=== REQUEST PROCESSING COMPLETED SUCCESSFULLY ===")
             
-            # Save processed images to permanent output folder
-            try:
-                import datetime
-                timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-                permanent_output_dir = f"workflow_output_{timestamp}"
-                os.makedirs(permanent_output_dir, exist_ok=True)
-                
-                # Copy processed images to permanent location
-                processed_images_dir = os.path.join(temp_dir, "output", "processed_images")
-                if os.path.exists(processed_images_dir):
-                    for filename in os.listdir(processed_images_dir):
-                        if filename.endswith(('.jpg', '.jpeg', '.png')):
-                            src_path = os.path.join(processed_images_dir, filename)
-                            dst_path = os.path.join(permanent_output_dir, filename)
-                            shutil.copy2(src_path, dst_path)
-                            logger.info(f"💾 Saved processed image: {dst_path}")
-                    
-                    logger.info(f"🎯 ALL PROCESSED IMAGES SAVED TO: {os.path.abspath(permanent_output_dir)}")
-                    logger.info(f"📁 You can view your processed images at: {os.path.abspath(permanent_output_dir)}")
-                
-            except Exception as e:
-                logger.error(f"Failed to save processed images permanently: {e}")
-            
+
             # Return the ZIP file directly
             return Response(
                 content=zip_content,
